@@ -1,0 +1,274 @@
+body {
+   background: url(../../assets/img/bg-left.png) 500px 0px no-repeat fixed, url(../../assets/img/bg-right.png) top right no-repeat fixed 
+}
+h2 {
+  text-transform: uppercase;
+  color: #004f53;
+  border-bottom: 3px solid #ff9700;
+  padding-bottom: 10px;
+  font-size: 22px;
+  display: inline-block;
+  font-family: "Libre Franklin Semibold" !important;
+  position: relative;
+  top: -50px;
+}
+
+.legenda {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+.tooltip-padrao {
+    font-weight: bold;
+    text-decoration:underline dotted;
+    color: #3f3f3f;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.painel-abas.abas-soltas .nav-item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.sem-marcador, .sem-marcador li {
+  list-style: none;
+}
+.sem-marcador i {
+  color: #00838d;
+}
+.linhadotempo {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.bto-proximo {
+  border: 2px solid #00838d;
+  padding: 7px 13px;
+  color: #00838D;
+  text-decoration: none;
+  margin-bottom: 40px;
+  display: inline-block;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+  margin-top: 40px;
+}
+.modal-dialog.modal-fullscreen h2{
+  top: unset !important;
+  margin-bottom: 50px;
+}
+.bto-proximo:hover{ 
+color: #00838d;
+z-index: 2;
+opacity: 1;
+transform: scale(1.05);
+}
+.bto-proximo.voltar {
+  background-color: #00838d;
+  color: white;
+}
+
+.linhadotempo::before {
+  content: "";
+  width: 20px;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background-color: #f79600;
+}
+
+.item {
+  display: block;
+  background-color: #29828c;
+  padding: 12px;
+  color: white;
+  width: calc(100% - 66px);
+  margin-top: 20px;
+  position: relative;
+}
+
+.item::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: #f79600;
+  display: block;
+  border-radius: 50px;
+  position: absolute;
+  top: 20px;
+  right: -50px;
+}
+
+.item::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  display: block;
+  border-radius: 50px;
+  position: absolute;
+  top: 30px;
+  right: -40px;
+}
+
+.linhadotempo::before {
+  content: "";
+  width: 10px;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background-color: #f79600;
+  position: absolute;
+  right: 30px;
+  border-radius: 70px;
+}
+
+
+/*menu*/
+.dropdown-menu{
+  background: #707070;
+  border-radius: 0;
+  padding: 20px 35px;
+  box-shadow: 4px 4px 0px rgba(187, 187, 187, 0.8);
+  left: -1px !important;
+  top: -2px !important;
+}
+.dropdown-menu a{
+  border-bottom: 1px solid #fff;
+  padding: 0;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+.dropdown-menu a:hover{
+  color: #fff;
+  background: none;
+  text-decoration: underline;
+}
+.dropdown-menu ul a i{
+  display: none;
+}
+.dropdown-menu ul a.ativo i{
+  display: inline;
+  margin-left: -15px;
+}
+.dropdown-menu li:last-child a{border: none;}
+.bt-close{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background: none;
+  border: none;
+}
+.fixar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-top: unset;
+  z-index: 9;
+}
+.dropdown-menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.accordion-button i{
+  font-size: 20px;
+  margin: 0 10px;
+}
+.dropdown-toggle::after{display: none;}
+.bg-light{
+  background: #e2e2e2;
+  border-bottom: 2px solid #a8a8a8;
+  border-top: 2px solid #bdbdbd;
+}
+.navbar-collapse{
+  background: none;
+}
+.nav-link i{
+  font-size: 25px;
+  color: #848383;
+  margin-right: 10px;
+}
+.navbar{
+  padding: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+  padding: 5px 0;
+}
+/*fim do menu*/
+
+.citacao {
+  border: 2px solid #00838d;
+  padding: 50px;
+  color: #00838d;
+  font-style: italic;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.citacao::before,
+.citacao::after {
+
+  content: "";
+  width: 86px;
+  height: 68px;
+  background: url(../../assets/objetos/aspas-inicio.png) center center / 86px 68px no-repeat white;
+  position: absolute;
+  top: -30px;
+  z-index: 2;
+  left: -30px;
+  padding: 40px;
+
+}
+
+.citacao::after {
+  top: unset;
+  bottom: -30px;
+  left: unset;
+  right: -30px;
+  background: url(../../assets/objetos/aspas-final.png) center center / 86px 68px no-repeat white;
+
+}
+@media only screen and (max-width: 1366px) {
+  .navbar ul li {
+    display: block;
+    width: 330px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .dropdown-menu {
+    padding: 20px 28px;
+    left: -32px !important;
+    top: -11px !important;
+    height: calc(100vh - 100px);
+    overflow: auto;
+
+  }
+  
+}
+@media only screen and (max-width: 1024px){
+  .citacao::after{
+    right: -2px;
+  }
+   .citacao::before {
+
+  }
+  .navbar ul li {
+    display: unset;
+    width: unset;
+    float: unset;
+    margin-right: unset;
+    margin-left: unset;
+  }
+  .dropdown-menu {
+    padding: 20px 28px;
+    left: -32px !important;
+    top: -11px !important;
+    height: calc(100vh - 200px);
+    overflow: auto;
+  }
+  h2{top: 0px;}
+}
