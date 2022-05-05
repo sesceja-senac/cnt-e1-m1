@@ -19,10 +19,11 @@ h2 {
   }
 .tooltip-padrao {
     font-weight: bold;
-    text-decoration:underline dotted;
+    text-decoration: none;
     color: #3f3f3f;
     cursor: pointer;
     display: inline-block;
+    border: 2px dotted #00838d;
 }
 
 .painel-abas.abas-soltas .nav-item {
