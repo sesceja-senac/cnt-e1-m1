@@ -1,0 +1,2525 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Ciências da natureza e suas tecnologias - Alimentação: energia e saúde para a vida</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="../../assets/css/preloader.css">
+    <link rel="stylesheet" href="../../assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/animate.min.css" />
+    <link rel="stylesheet" href="../../assets/fa/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/template.css">
+
+    <link rel="stylesheet" href="../../assets/print/print.css">
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <link rel="stylesheet" href="custom.css">
+
+
+</head>
+
+<body class="bg-sesc">
+    <div class="preloader">
+        <div class="anim"></div>
+        <h1>Aguarde enquanto o conteúdo é carregado.</h1>
+    </div>
+    <!-- MARCA D´ÁGUA -->
+    <img src="../../assets/img/logo_sesc_horizontal.svg" id="marcadaguaLogo">
+
+    <header id="topo" class="sesc no-print">
+        <img src="../../assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">
+    </header>
+    <nav class="navbar navbar-expand navbar-light bg-light no-print" aria-hidden="true">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse container" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-solid fa-bars"></i>
+                            <span style="top: -3px; position: relative;">Introdução</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <button class="bt-close d-none d-lg-block d-md-block d-sm-block"><i
+                                    class="fas fa-times"></i></button>
+                            <ul>
+                                <li><a class="dropdown-item" href="?page=1"><i class="fas fa-solid fa-angle-right"></i>
+                                        Introdução</a></li>
+                                <li><a class="dropdown-item" href="?page=2"><i class="fas fa-solid fa-angle-right"></i>
+                                        Por que se alimentar?</a></li>
+                                <li><a class="dropdown-item" href="?page=3"><i class="fas fa-solid fa-angle-right"></i>
+                                        Investigando alimentos da culinária brasileira</a></li>
+                                <li><a class="dropdown-item" href="?page=4"><i class="fas fa-solid fa-angle-right"></i>
+                                        Nutrientes presentes nos alimentos</a></li>
+                                <li><a class="dropdown-item" href="?page=5"><i class="fas fa-solid fa-angle-right"></i>
+                                        A importância do colesterol para a saúde</a></li>
+                                <li><a class="dropdown-item" href="?page=6"><i class="fas fa-solid fa-angle-right"></i>
+                                        As principais funções das proteínas</a></li>
+                                <li><a class="dropdown-item" href="?page=7"><i class="fas fa-solid fa-angle-right"></i>
+                                        Transformação química dos alimentos</a></li>
+                                <li><a class="dropdown-item" href="?page=8"><i class="fas fa-solid fa-angle-right"></i>
+                                        Termoquímica dos alimentos</a></li>
+                                <li><a class="dropdown-item" href="?page=9"><i class="fas fa-solid fa-angle-right"></i>
+                                        Cálculo da caloria dos alimentos</a></li>
+                                <li><a class="dropdown-item" href="?page=10"><i class="fas fa-solid fa-angle-right"></i>
+                                        Como balancear sua alimentação</a></li>
+                                <li><a class="dropdown-item" href="?page=11"><i class="fas fa-solid fa-angle-right"></i>
+                                        Análise dos rótulos dos alimentos</a></li>
+                                <li><a class="dropdown-item" href="?page=12"><i class="fas fa-solid fa-angle-right"></i>
+                                        A saúde e a estética corporal</a></li>
+                                <li><a class="dropdown-item" href="?page=13"><i class="fas fa-solid fa-angle-right"></i>
+                                        Transtornos alimentares</a></li>
+                                <li><a class="dropdown-item" href="?page=14"><i class="fas fa-solid fa-angle-right"></i>
+                                        Da alimentação à atividade física</a></li>
+                                <li><a class="dropdown-item" href="?page=15"><i class="fas fa-solid fa-angle-right"></i>
+                                        Temperatura corporal</a></li>
+                                <li><a class="dropdown-item" href="?page=16"><i class="fas fa-solid fa-angle-right"></i>
+                                        Referências</a></li>
+                            </ul>
+                            <button class="bt-close d-block d-lg-none d-md-none d-sm-none"><i class="fas fa-times"></i>
+                                Fechar</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Section principal deve ter o booklet, pois faz parte do print.js -->
+    <section id="booklet">
+        <!--Dentro do section devemos ter um elemento com a classe paginas, para funcionar a paginação/print-->
+        <header class="titulo-conteudo mb-0 print">
+            <div class="container" style="padding-top:1px">
+                <!--titulo do curso para o print e leitor de tela-->
+                <h1 id="nome-curso" class="d-none print mt-0 text-center w-100">Ciências da natureza e suas tecnologias
+                </h1>
+                <div class="row g-0 pb-4 pt-4">
+                    <div class="col-9 d-flex flex-column justify-content-center align-items-start">
+                        <h1 class="visually-hidden">Alimentação: energia e saúde para a vida</h1>
+                    </div>
+                    <div class="col-3 d-flex flex-column justify-content-center align-items-end">
+                        <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i
+                                class="fas fa-print "></i> imprimir</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="paginas">
+            <div class="container pagina">
+                <h2>Introdução</h2>
+                <p>Olá, estudante! </p>
+                <p>Seja bem-vindo ao estudo da ciência dos fenômenos naturais. Você compreenderá as <strong>ciências da
+                        natureza e suas tecnologias</strong> por meio de um olhar integrado à biologia, à física e à
+                    química. Será valorizado o aprofundamento de saberes para a aplicação de diferentes aprendizagens em
+                    diferentes contextos sociais, culturais, históricos e de trabalho. </p>
+                <br>
+                <div class="caixa mt-2 mb-2">
+                    <p>É possível perceber que as ciências da natureza estão presentes de diversas formas na cultura e
+                        na vida em sociedade, possibilitando novas compreensões sobre o mundo. Desse modo, associam-se à
+                        tecnologia, tomando parte em todos os setores de produção e de serviços: da agropecuária à
+                        medicina, da indústria ao sistema financeiro, dos transportes à comunicação e à informação, da
+                        produção de armas químicas aos aparelhos domésticos. Essa associação entre as ciências e as
+                        tecnologias resultou nas várias revoluções industriais e integra todas as dimensões práticas da
+                        vida humana e, consequentemente, molda comportamentos e identidades individuais e coletivas.
+                    </p>
+                </div>
+                <br>
+                <p>Nesta etapa, você encontrará informações científicas sobre diferentes estratégias alimentares e
+                    justificativas para diferentes instruções, como “o que comer e o que não comer”. Por exemplo, por
+                    que comer alimentos integrais é importante? Por que limitar a ingestão de açúcar, farinha e
+                    alimentos ultraprocessados? Em todo caso, é importante salientar que as questões relacionadas com a
+                    alimentação devem ser acompanhadas por um profissional de saúde com conhecimento na área, como
+                    nutricionistas e médicos, por exemplo. </p>
+
+                <p class="text-center"><a href="index.html?page=2" class="bto-proximo no-print">Próximo: <strong>Por que
+                            se alimentar?</strong></a></p>
+                <br><br><br><br><br><br><br>
+            </div>
+
+            <div class="container pagina">
+                <h2>Por que se alimentar?</h2>
+                <p>Você já se perguntou por que sente fome? Provavelmente, sim. É comum, inclusive, sentir-se cansado ou
+                    fraco ao não se alimentar bem. Essas sensações são respostas do organismo à falta de algum alimento
+                    que deveria ter sido ingerido a fim de garantir a realização de atividades do dia a dia. Ao
+                    alimentar-se adequadamente, a execução de atividades é qualificada, garantindo uma vida mais
+                    saudável e prazerosa. </p>
+                <p>A alimentação não está relacionada apenas ao prazer em comer, mas, principalmente, ao provimento da
+                    nutrição necessária ao organismo para realizar processos vitais a partir da produção de energia. A
+                    necessidade alimentícia está centrada na utilização do alimento pelas <strong>células</strong> para
+                    produzirem
+                    <strong>energia</strong>. A produção energética acontece quando se utiliza um açúcar simples
+                    (glicose) juntamente com
+                    o gás oxigênio (produto da respiração) no interior das células, onde acontece a liberação de energia
+                    e, na sequência, a excreção de resíduos também produzidos nessa reação química. </p>
+                <p>A <strong>alimentação</strong> está na base da pirâmide de uma vida saudável, pois é como o corpo
+                    processa os
+                    nutrientes necessários para a manutenção da vida. Além da produção energética, a alimentação está
+                    centrada, também, na renovação celular, conforme o documento divulgado pela Organização
+                    Pan-Americana da Saúde – OPAS. </p>
+                <br>
+
+                <div class="caixa mt-2 mb-2">
+                    <p>A composição exata de uma dieta diversificada, equilibrada e saudável varia de acordo com as
+                        características individuais de cada pessoa (idade, sexo, estilo de vida e grau de atividade
+                        física), contexto cultural, alimentos disponíveis localmente e hábitos alimentares. No entanto,
+                        os princípios básicos do que constitui uma alimentação saudável permanecem os mesmos para todas
+                        e todos (OPAS, 2019). </p>
+
+                    <a href="../../assets/objetos/fig01.jpg" target="_blank">
+                        <img src="../../assets/objetos/fig01.jpg"
+                            alt="A imagem é composta por vários tipos de alimentos coloridos, como legumes, frutas, vegetais e grãos, por exemplo: brócolis, abacate, alface, tomate, arroz, grão de bico e limão."
+                            class="img-fluid" style="margin-left: auto; margin-right: auto; display: block;">
+                    </a>
+                    <p class="text-center">Figura 1 – Alimentos <em>in natura</em> (diversidade de alimentos necessários
+                        ao
+                        corpo) <br>
+
+                        Fonte: &lt;https://www.paho.org/pt/topicos/alimentacao-saudavel&gt;. Acesso em: 24 mar. 2022.
+                    </p>
+                </div>
+                <br>
+
+                <p>Não só a <strong>OPAS</strong>, mas também a <strong>Organização Mundial da Saúde – OMS</strong> e
+                    outras entidades globais, preocupadas com uma vida saudável, falam sobre as necessidades de uma
+                    alimentação para proporcionar uma vida digna para qualquer pessoa no planeta. Entretanto, será que
+                    existem condições necessárias para uma vida digna disponíveis de maneira global? Entre esse
+                    questionamento, também surgem outros. </p>
+
+                <ul class="sem-marcador">
+                    <li><i class="fas fa-check    "></i> Qual os malefícios dos alimentos ultraprocessados? </li>
+                    <li><i class="fas fa-check    "></i> O que é e qual a importância de uma alimentação balanceada?
+                    </li>
+                    <li><i class="fas fa-check    "></i> Qual a função de uma tabela nutricional? </li>
+                    <li><i class="fas fa-check    "></i> Como extrair a energia dos alimentos? </li>
+                    <li><i class="fas fa-check    "></i> Como utilizar a energia dos alimentos nos movimentos realizados
+                        pelo corpo? </li>
+                </ul>
+
+
+
+                <p>A seguir, você verá como usar as ferramentas das ciências da natureza para refletir e tentar
+                    responder a essas perguntas. </p>
+
+                <p class="text-center">
+                    <a href="index.html?page=1" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=3" class="bto-proximo no-print">Próximo: <strong>Investigando alimentos da
+                            culinária
+                            brasileira</strong></a>
+                </p>
+
+            </div>
+
+            <div class="container pagina">
+                <h2>Investigando alimentos da culinária brasileira</h2>
+                <p>A maioria das fontes dos alimentos são encontradas em organismos vivos. Ao comer, ingere-se grupos de
+                    substâncias químicas que participam de um sistema amplo que relaciona as substâncias ingeridas
+                    àquelas já encontradas no organismo. De tal modo, a alimentação é uma grande e complexa estratégia
+                    de interação química no corpo e exige inúmeras transformações e rearranjos nos sistemas corporais.
+                    Para além dos aspectos químicos, a alimentação também está relacionada a comportamentos
+                    socioculturais, estando vinculada ao modo de vida e à maneira com que os diferentes grupos de seres
+                    vivos se conectam e se comunicam. </p>
+                <p>Os seres humanos obtêm nutrientes por meio dos alimentos para manter seu corpo saudável. Acredita-se
+                    que as formas de consumir o alimento e os tipos de alimentos que consumimos foram modificando ao
+                    longo da história. À medida que a espécie evoluiu, suas estratégias de consumir o alimento também
+                    mudaram, como, por exemplo: em determinado período, em vez de comer apenas raízes e folhas, o ser
+                    humano passou a ingerir carne crua e, em seguida, a partir da manipulação do fogo, aprendeu a
+                    cozinhar e assar. </p>
+                <p>O ser humano pré-histórico comia de tudo. Já o moderno age de forma bem diferente. Os israelitas
+                    podiam comer gafanhotos, e esses são ainda apreciados em toda a África do Norte. Os hindus não comem
+                    carne de vaca, pois acreditam serem sagradas, já para os europeus, ela é indispensável na mesa.
+                    Assim, ao acompanhar a evolução do processo alimentar, conclui-se que a cultura tem forte influência
+                    na forma com que os alimentos são preparados e consumidos. </p>
+                <p>Ao investigar a <strong>culinária brasileira</strong>, é possível identificar a fusão perfeita das
+                    diversas culturas que compõem o país. Em cada uma das cinco regiões, podem ser encontrados pratos
+                    típicos bem diferentes. Se você gosta de um bom prato e quer saber mais sobre as características
+                    marcantes da culinária brasileira, veja a seguir as comidas típicas de cada região! </p>
+                <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo: </p>
+
+                <div class="row" style="max-width: 500px; margin-left: auto; margin-right: auto;">
+                    <div class="col-12 col-md-6">
+                        <button class="btn-sesc-image no-print" aria-hidden="true" data-bs-toggle="modal"
+                            data-bs-target="#regiaosul" style="margin-left: auto; margin-right: auto; display: block;">
+                            <div class="thumb_moldura">
+                                <img src="../../assets/objetos/regiao-sul-bt.jpg" class="img-fluid" alt="">
+                            </div>
+                            <span class="btn-label">
+                                <span class="btn-label-texto">Região Sul</span>
+                            </span>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="regiaosul" tabindex="-1" aria-labelledby="regiaosullLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="regiaosulLabel">Região Sul</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>A gastronomia do <strong>Sul</strong> do país vai muito além do tradicional
+                                            churrasco. Entre seus muitos pratos típicos, o arroz carreteiro se destaca
+                                            como um dos favoritos gaúchos. Esse prato faz parte da história do Rio
+                                            Grande do Sul e surgiu quando o principal meio de transporte de mercadorias
+                                            eram as carroças puxadas por vacas. </p>
+                                        <p>Os carreteiros da época criaram esse prato simples com pouquíssimos
+                                            ingredientes: o charque, que é uma carne que pode ser conservada para vários
+                                            dias de viagem, combinado com o arroz, que define a base do prato. </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fechar</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visually-hidden">
+                            <h5 class="modal-title" id="regiaosulLabel">Região Sul</h5>
+                            <p>A gastronomia do <strong>Sul</strong> do país vai muito além do tradicional
+                                churrasco. Entre seus muitos pratos típicos, o arroz carreteiro se destaca
+                                como um dos favoritos gaúchos. Esse prato faz parte da história do Rio
+                                Grande do Sul e surgiu quando o principal meio de transporte de mercadorias
+                                eram as carroças puxadas por vacas. </p>
+                            <p>Os carreteiros da época criaram esse prato simples com pouquíssimos
+                                ingredientes: o charque, que é uma carne que pode ser conservada para vários
+                                dias de viagem, combinado com o arroz, que define a base do prato. </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <button class="btn-sesc-image no-print" aria-hidden="true" data-bs-toggle="modal"
+                            data-bs-target="#regiaonordeste"
+                            style="margin-left: auto; margin-right: auto; display: block;">
+                            <div class="thumb_moldura">
+                                <img src="../../assets/objetos/regiao-nordeste-bt.jpg" class="img-fluid" alt="">
+                            </div>
+                            <span class="btn-label">
+                                <span class="btn-label-texto">Região Nordeste</span>
+                            </span>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="regiaonordeste" tabindex="-1"
+                            aria-labelledby="regiaosullLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="regiaosulLabel">Região Nordeste</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Até pouco tempo atrás, mandioca, acarajé, moqueca e outras iguarias
+                                            <strong>nordestinas</strong> não eram encontradas em nenhum lugar do Brasil.
+                                            Mas, nos últimos anos, a culinária nordestina se popularizou em todo o país.
+                                            Por exemplo, um prato típico do Ceará é o baião de dois, baseado em
+                                            tradicionais ingredientes brasileiros, o arroz, o feijão e a carne seca.
+                                        </p>
+                                        <p>As origens do baião remontam ao período seco do Nordeste, quando todas as
+                                            suas coisas eram cozidas para evitar o desperdício, pois a comida era
+                                            escassa e nada podia estragar. Hoje o baião de dois também é preparado com
+                                            queijo queimado, <em>bacon</em> e temperos, como cebola, coentro e louro.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visually-hidden">
+                            <h5 class="modal-title" id="regiaosulLabel">Região Nordeste</h5>
+                            <p>Até pouco tempo atrás, mandioca, acarajé, moqueca e outras iguarias
+                                <strong>nordestinas</strong> não eram encontradas em nenhum lugar do Brasil.
+                                Mas, nos últimos anos, a culinária nordestina se popularizou em todo o país.
+                                Por exemplo, um prato típico do Ceará é o baião de dois, baseado em
+                                tradicionais ingredientes brasileiros, o arroz, o feijão e a carne seca.
+                            </p>
+                            <p>As origens do baião remontam ao período seco do Nordeste, quando todas as
+                                suas coisas eram cozidas para evitar o desperdício, pois a comida era
+                                escassa e nada podia estragar. Hoje o baião de dois também é preparado com
+                                queijo queimado, <em>bacon</em> e temperos, como cebola, coentro e louro.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+
+                        <button class="btn-sesc-image no-print" aria-hidden="true" data-bs-toggle="modal"
+                            data-bs-target="#regiaonorte"
+                            style="margin-left: auto; margin-right: auto; display: block;">
+                            <div class="thumb_moldura">
+                                <img src="../../assets/objetos/regiao-norte-bt.jpg" class="img-fluid" alt="">
+                            </div>
+                            <span class="btn-label">
+                                <span class="btn-label-texto">Região Norte</span>
+                            </span>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="regiaonorte" tabindex="-1"
+                            aria-labelledby="regiaonortelLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="regiaonorteLabel">Região Norte</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p> A culinária do <strong>Norte</strong> do país apresenta pratos com
+                                            influências indígenas, como peixes e frutas típicas da região, oriundos da
+                                            vasta riqueza natural da Amazônia. Um dos pratos mais consumidos na região é
+                                            a mujica de peixe, que consiste em peixes grelhados (de preferência
+                                            tambaqui) e um guisado temperado engrossado com farinha, servido com arroz
+                                            branco ou outros acompanhamentos. Esse prato, nativo da região, é muito
+                                            consumido pelos ribeirinhos, e a ideia é sempre reaproveitar o peixe
+                                            grelhado da refeição anterior. </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visually-hidden">
+                            <h5 class="modal-title" id="regiaonorteLabel">Região Norte</h5>
+                            <p> A culinária do <strong>Norte</strong> do país apresenta pratos com
+                                influências indígenas, como peixes e frutas típicas da região, oriundos da
+                                vasta riqueza natural da Amazônia. Um dos pratos mais consumidos na região é
+                                a mujica de peixe, que consiste em peixes grelhados (de preferência
+                                tambaqui) e um guisado temperado engrossado com farinha, servido com arroz
+                                branco ou outros acompanhamentos. Esse prato, nativo da região, é muito
+                                consumido pelos ribeirinhos, e a ideia é sempre reaproveitar o peixe
+                                grelhado da refeição anterior. </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <button class="btn-sesc-image no-print" aria-hidden="true" data-bs-toggle="modal"
+                            data-bs-target="#regiaocentrooeste"
+                            style="margin-left: auto; margin-right: auto; display: block;">
+                            <div class="thumb_moldura">
+                                <img src="../../assets/objetos/regiao-centro-oeste-bt.jpg" class="img-fluid" alt="">
+                            </div>
+                            <span class="btn-label">
+                                <span class="btn-label-texto">Região Centro-oeste</span>
+                            </span>
+                        </button>
+
+                        <div class="modal fade" id="regiaocentrooeste" tabindex="-1"
+                            aria-labelledby="regiaocentrooesteLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="regiaocentrooesteLabel">Região Centro-Oeste</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body ">
+                                        <p>Há também influência indígena na culinária do <strong>Centro-Oeste</strong>
+                                            do país tanto de índios brasileiros como dos vizinhos paraguaios. No
+                                            entanto, essa região etnicamente mista também tem uma culinária muito
+                                            diversificada, com influências de todo o Brasil. Come-se muito peixe, carne
+                                            vermelha e até mesmo alguma proteína exótica. Um prato popular na região é a
+                                            sopa paraguaia, que, na verdade, não é uma sopa, mas um bolo salgado à base
+                                            de fubá. </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visually-hidden">
+                            <h5 class="modal-title" id="regiaocentrooesteLabel">Região Centro-Oeste</h5>
+                            <p>Há também influência indígena na culinária do <strong>Centro-Oeste</strong>
+                                do país tanto de índios brasileiros como dos vizinhos paraguaios. No
+                                entanto, essa região etnicamente mista também tem uma culinária muito
+                                diversificada, com influências de todo o Brasil. Come-se muito peixe, carne
+                                vermelha e até mesmo alguma proteína exótica. Um prato popular na região é a
+                                sopa paraguaia, que, na verdade, não é uma sopa, mas um bolo salgado à base
+                                de fubá. </p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+
+                        <button class="btn-sesc-image no-print" aria-hidden="true" data-bs-toggle="modal"
+                            data-bs-target="#regiaosudeste"
+                            style="margin-left: auto; margin-right: auto; display: block;">
+                            <div class="thumb_moldura">
+                                <img src="../../assets/objetos/regiao-sudeste-bt.jpg" class="img-fluid" alt="">
+                            </div>
+                            <span class="btn-label">
+                                <span class="btn-label-texto">Região Sudeste</span>
+                            </span>
+                        </button>
+
+                        <div class="modal fade" id="regiaosudeste" tabindex="-1"
+                            aria-labelledby="regiaocentrooesteLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="regiaocentrooesteLabel">Região Sudeste</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Por ser uma região que experimentou intensa atividade durante os tempos
+                                            coloniais do Brasil, o <strong>Sudeste</strong> é hoje uma boa mistura de
+                                            culturas. Cada estado tem seus pratos típicos, mas um dos pratos mais
+                                            deliciosos da região é o famoso feijão tropeiro, feito com feijão, farinha
+                                            de tapioca, linguiça, casca crocante, alho, cebola, ovos e outros temperos.
+                                        </p>
+                                        <p>As origens do nome remontam aos tropeiros, que eram pessoas que usavam os
+                                            militares para transportar mercadorias, se reuniam para comer e inventaram o
+                                            prato, que utilizava todos os ingredientes mais disponíveis na época. Até
+                                            hoje, esse prato continua sendo um importante elemento das tradições de São
+                                            Paulo e Minas Gerais. </p>
+                                        <p>Veja a seguir a tabela nutricional, com valores aproximados, do feijão
+                                            tropeiro. </p>
+
+                                        <div class="table-responsive">
+                                            <table class="sesc w-100">
+                                                <tr>
+                                                    <th colspan="2">Tabela Nutricional</th>
+                                                    <th>%VD</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>Calorias (valor energético) </td>
+                                                    <td>22,80 kcal </td>
+                                                    <td>1,14% </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Carboidratos líquidos </td>
+                                                    <td>2,40 g </td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Carboidratos </td>
+                                                    <td>2,94 g </td>
+                                                    <td>0,98% </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Proteínas</td>
+                                                    <td>1,53 g </td>
+                                                    <td>0,51% </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Gorduras totais</td>
+                                                    <td>1,02 g</td>
+                                                    <td>1,85%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Gorduras saturadas</td>
+                                                    <td>0,33 g</td>
+                                                    <td>1,50%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Fibra alimentar </td>
+                                                    <td>0,54 g </td>
+                                                    <td>2,16% </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sódio </td>
+                                                    <td>0,54 g </td>
+                                                    <td>2,16% </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <p class="legenda">Tabela 1 – Tabela nutricional do feijão tropeiro <br>
+
+                                            Fonte: Adaptado de
+                                            &lt;https://vitat.com.br/alimentacao/busca-de-alimentos/alimentos/372-feij%C3%A3o-tropeiro&gt;.
+                                            Acesso em: 14 abr. 2022. </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visually-hidden">
+                            <h5 class="modal-title" id="regiaocentrooesteLabel">Região Sudeste</h5>
+                            <p>Por ser uma região que experimentou intensa atividade durante os tempos
+                                coloniais do Brasil, o <strong>Sudeste</strong> é hoje uma boa mistura de
+                                culturas. Cada estado tem seus pratos típicos, mas um dos pratos mais
+                                deliciosos da região é o famoso feijão tropeiro, feito com feijão, farinha
+                                de tapioca, linguiça, casca crocante, alho, cebola, ovos e outros temperos.
+                            </p>
+                            <p>As origens do nome remontam aos tropeiros, que eram pessoas que usavam os
+                                militares para transportar mercadorias, se reuniam para comer e inventaram o
+                                prato, que utilizava todos os ingredientes mais disponíveis na época. Até
+                                hoje, esse prato continua sendo um importante elemento das tradições de São
+                                Paulo e Minas Gerais. </p>
+                            <p>Veja a seguir a tabela nutricional, com valores aproximados, do feijão
+                                tropeiro. </p>
+
+                            <div class="table-responsive">
+                                <table class="sesc w-100">
+                                    <tr>
+                                        <th colspan="2">Tabela Nutricional</th>
+                                        <th>%VD</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Calorias (valor energético) </td>
+                                        <td>22,80 kcal </td>
+                                        <td>1,14% </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Carboidratos líquidos </td>
+                                        <td>2,40 g </td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Carboidratos </td>
+                                        <td>2,94 g </td>
+                                        <td>0,98% </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Proteínas</td>
+                                        <td>1,53 g </td>
+                                        <td>0,51% </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gorduras totais</td>
+                                        <td>1,02 g</td>
+                                        <td>1,85%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gorduras saturadas</td>
+                                        <td>0,33 g</td>
+                                        <td>1,50%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fibra alimentar </td>
+                                        <td>0,54 g </td>
+                                        <td>2,16% </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sódio </td>
+                                        <td>0,54 g </td>
+                                        <td>2,16% </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <p class="legenda">Tabela 1 – Tabela nutricional do feijão tropeiro <br>
+
+                                Fonte: Adaptado de
+                                &lt;https://vitat.com.br/alimentacao/busca-de-alimentos/alimentos/372-feij%C3%A3o-tropeiro&gt;.
+                                Acesso em: 14 abr. 2022. </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <p class="text-center">
+                    <a href="index.html?page=2" class="bto-proximo no-print voltar"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=4" class="bto-proximo no-print">Próximo: <strong>Nutrientes presentes nos
+                            alimentos</strong></a>
+                </p>
+            </div>
+
+            <div class="container pagina">
+                <h2>Nutrientes presentes nos alimentos</h2>
+                <p>Os diferentes alimentos presentes na culinária regional estão relacionados à cultura desses lugares e
+                    são ricos em uma série de <strong>nutrientes</strong> que contribuem para a realização dos processos
+                    metabólicos do organismo.</p>
+
+                <h3>Carboidrato</h3>
+                <p>O <strong>carboidrato</strong>, por exemplo, presente no arroz do carreteiro, na mandioca e nas
+                    diferentes frutas é a <a tabindex="0" class="tooltip-padrao" data-bs-toggle="popover"
+                        data-bs-trigger="focus"
+                        data-bs-content="Uma biomolécula é uma molécula presente nas células dos seres vivos que fazem parte de processos bioquímicos do organismo. Lembrando que uma molécula é a união de pelo menos dois elementos químicos.">biomolécula</a>
+                    mais abundante na
+                    natureza. Entre as várias funções dos carboidratos, a mais importante é a energética. Além de sua
+                    importância biológica, os carboidratos são matérias-primas para a indústria alimentícia e são
+                    encontrados em uma variedade de alimentos. </p>
+
+                <div class="caixa icone nota">
+                    <p>Além de suas funções energéticas, também têm funções estruturais, atuando como esqueleto de
+                        certos tipos de células, como a celulose e a quitina, que fazem parte dos esqueletos de plantas
+                        e animais, respectivamente. </p>
+                </div>
+                <p>O amido, por exemplo, é um carboidrato de reserva energética para plantas e fungos. Os seres humanos
+                    também têm uma substância de armazenamento de energia: o <strong>glicogênio</strong>, que é
+                    armazenado no fígado e
+                    nos músculos. Quando o corpo precisa de energia, o glicogênio é <a tabindex="0"
+                        class="tooltip-padrao" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-content="Hidrolisar é decompor(-se) uma substância por hidrólise, ou seja, quebrar pela água.">hidrolisado</a>
+                    em moléculas de glicose, um carboidrato
+                    simples com apenas seis átomos de carbono. O glicogênio é o resultado da ligação de milhares de
+                    moléculas de glicose, assim como a celulose. Assim, os carboidratos são substâncias extremamente
+                    importantes para a vida, e sua principal fonte são as plantas, que produzem carboidratos por meio da
+                    fotossíntese. Os vegetais absorvem a energia solar e a convertem em energia química, produzindo
+                    carboidratos. </p>
+
+                <h3>Lipídio</h3>
+                <p>Os lipídios, encontrados nos alimentos, como a gordura de carnes vermelhas e óleos vegetais, são
+                    moléculas de gordura formadas por ácidos graxos (moléculas grandes compostas de hidrogênio, carbono
+                    e oxigênio, com formação “COOH” no fim da cadeia de carbonos), muito importantes no fornecimento de
+                    energia para o corpo, pouco solúveis em água e, portanto, chamadas de <a tabindex="0"
+                        class="tooltip-padrao" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-content="Substâncias que não possuem afinidade com a água.">hidrofóbicas</a>. Os
+                    lipídios também atuam como isolantes
+                    térmicos, componentes da membrana plasmática, reservas de energia e na formação estrutural de alguns
+                    hormônios. Ao consumir uma quantidade de gordura superior à indicada, o ser humano pode sofrer danos
+                    à saúde, como colesterol elevado e outras doenças cardiovasculares. </p>
+
+                <div class="caixa icone refletir">
+                    <p>Mas então qual tipo de gordura deve ser consumido? </p>
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <img aria-hidden="true" src="../../assets/objetos/gordura-vegetal.jpg" class="img-fluid"
+                                alt="Alguns alimentos em uma bandeja. Podemos ver uma fatia de salmão, abacate, azeite de oliva e algumas castanhas">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <p><strong>Gordura vegetal</strong><br>É rica em gorduras insaturadas – livres de colesterol
+                                e gorduras <em>trans</em>. Pode ser
+                                encontrada no abacate, na linhaça e no azeite de oliva, por exemplo, e ajudar a
+                                controlar os níveis de colesterol e prevenir doenças cardiovasculares. </p>
+                        </div>
+                        <div class="col-12 mb-4"></div>
+                        <div class="col-12 col-md-4">
+                            <img aria-hidden="true" src="../../assets/objetos/gordura-animal.jpg" class="img-fluid"
+                                alt="Novamente alguns alimentos em uma bandeja. Peixes, carnes, ovos, embutidos como presuntos entre outros">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <p><strong>Gordura animal</strong><br>Composta principalmente por gordura saturada,
+                                colesterol e gordura <em>trans</em>. É
+                                encontrada em carnes, manteiga, creme de leite, leite integral e queijo integral. </p>
+                        </div>
+
+                    </div>
+                </div>
+                <p class="text-center">
+                    <a href="index.html?page=3" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=5" class="bto-proximo no-print">Próximo: <strong>A importância do
+                            colesterol para a saúde brasileira</strong></a>
+                </p>
+            </div>
+            <div class="container pagina">
+                <h2>A importância do colesterol para a saúde</h2>
+                <p>Durante os exames de rotina, os médicos geralmente solicitam a dosagem de colesterol no sangue,
+                    classificado em: </p>
+
+                <ul class="sem-marcador">
+                    <li><i class="fas fa-check    "></i> Colesterol total</li>
+                    <li><i class="fas fa-check    "></i> HDL</li>
+                    <li><i class="fas fa-check    "></i> LDL</li>
+                </ul>
+
+
+
+                <p>O colesterol tem sido uma preocupação para médicos e nutricionistas nos últimos anos, pois muitos
+                    estudos foram realizados e apontaram para a importância dessa substância, que compõe grande parte do
+                    cérebro e é necessária para a saúde das células nervosas. </p>
+
+                <h3>Aspectos químicos da molécula de colesterol</h3>
+                <p>Do ponto de vista químico, o colesterol é um <strong>lipídio</strong>, classificado como esteroide. O
+                    colesterol e outras gorduras são insolúveis em água, o que também significa que são insolúveis no
+                    sangue. Veja a seguir a representação de uma molécula genérica de colesterol. </p>
+
+                <a href="../../assets/objetos/fig02.jpg" target="_blank">
+                    <img src="../../assets/objetos/fig02.jpg" class="img-fluid"
+                        style="margin-left: auto; margin-right: auto; display: block;"
+                        alt="Fórmula molecular e fórmula estrutural da molécula de colesterol.">
+                </a>
+                <p class="legenda">Figura 2 – Molécula de colesterol <br>
+
+                    Fonte: &lt;https://brasilescola.uol.com.br/quimica/composicao-quimica-colesterol.htm&gt;. Acesso em:
+                    14 abr. 2022. </p>
+
+                <br>
+
+                <iframe aria-hidden="true" class="youtube-pl no-print"
+                    src="https://www.youtube.com/embed/9OM3swMfZqw?modestbranding=1" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+                <div class="visually-hidden">
+                    <p>Mocinho ou vilão? Bem ou mal? Bom ou ruim? E se a resposta não for tão simples?  </p>
+                    <p>A palavra “colesterol”, por muitos anos, apavorou muita gente, sempre aparecendo associada a doenças. Mas o colesterol nada mais é do que um tipo de gordura encontrado de forma natural no nosso organismo, que desempenha um papel importantíssimo para as funções vitais. </p>
+                    <p>O problema está no exagero do seu consumo. O colesterol só atrapalha se estiver em um nível muito alto no sangue. Além disso, existem dois tipos, popularmente conhecidos como “bom” e “ruim”.   </p>
+                    <p>O LDL é uma lipoproteína de baixa intensidade. Algumas partículas pequenas e densas de LDL podem depositar colesterol nas paredes das artérias, e aí está o perigo. Por isso é chamado de colesterol ruim. </p>
+                    <p>Mas se tem a parte ruim, também tem a parte boa, certo? Então antes de chegar lá, vamos entender o que é uma lipoproteína.</p>
+                    <p>Como o próprio nome já sugere, as lipoproteínas são um conjunto de proteínas e lipídeos, que servem para facilitar o transporte da gordura pelo plasma sanguíneo. </p>
+                    <p>Então, qual é o colesterol bom? Esse é o HDL! Ele consegue remover as gorduras das artérias e levá-las até o fígado, onde são convertidas em ácidos biliares e secretados. Ou seja, isso faz bem ao nosso corpo.   </p>
+                    <p>Portanto, não precisamos cortar o ovo, o leite integral ou qualquer alimento da dieta, afinal nenhum deles é mocinho ou vilão. O colesterol só vai incomodar se você consumir alimentos com gorduras trans, por exemplo, em excesso. Sempre que possível, mantenha o equilíbrio! </p>
+                </div>
+                <br>
+
+                <p class="text-center">
+                    <a href="index.html?page=4" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=6" class="bto-proximo no-print">Próximo: <strong>As principais funções das
+                            proteínas brasileira</strong></a>
+                </p>
+
+
+
+            </div>
+
+            <div class="container pagina">
+                <h2>As principais funções das proteínas</h2>
+
+                <p>As proteínas ingeridas a partir dos peixes, das carnes vermelhas, da linguiça e do feijão tropeiro,
+                    por exemplo, são substâncias que desempenham as mais diversas funções no organismo, como a formação
+                    e a estrutura celular, a atuação enzimática e a contração muscular. </p>
+
+                <div class="caixa icone importante">
+                    <p>É importante destacar que não existe processo biológico que não envolva proteínas. </p>
+                </div>
+
+                <h3>Principais alimentos vinculados à ingestão de proteínas</h3>
+
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <img src="../../assets/objetos/img-ilustrativa-frango.jpg" alt="" class="img-fluid"
+                            aria-hidden="true">
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <p>A opção de comer frango quando se quer ganhar massa muscular está relacionada à função
+                            estrutural das
+                            proteínas. Durante algumas atividades, como musculação, ocorrem <a tabindex="0"
+                                class="tooltip-padrao" role="button" data-bs-trigger="focus" data-bs-toggle="popover"
+                                data-bs-content="Ao realizar microlesões, o corpo preenche aquele tecido ou aquela fibra (no caso da musculatura) reforçando o local dessa lesão de forma a ela resistir ao mesmo estímulo que poderá ser gerado novamente. É como pensar que utilizamos uma corda para levantar um peso, porém quando a corda arrebenta, trocamos ela por uma mais grossa. ">microlesões</a>
+                            nos músculos, e os
+                            aminoácidos são usados pelo corpo para recuperação das lesões durante um processo chamado
+                            <strong>hipertrofia muscular</strong>. </p>
+                        <p>O frango, além de ser uma rica fonte de proteína, em comparação com a carne bovina, apresenta
+                            outras características importantes, como menos gordura saturada e colesterol e maior valor
+                            nutricional, como ferro e zinco. </p>
+                    </div>
+                </div>
+
+                <div class="caixa icone atencao">
+                    <p>Lembre-se: diferentes fatores devem ser considerados para determinar se um alimento é mais ou
+                        menos saudável. </p>
+                </div>
+
+                <p>Essas características fazem do frango uma boa escolha para a construção muscular. No entanto, tal
+                    como a batata-doce, apenas parâmetros nutricionais não são suficientes para se chegar a determinadas
+                    conclusões. Muitas pessoas começam a fazer "dietas da moda” e não entendem nem refletem sobre seus
+                    efeitos ou riscos, tendo apenas como motivação a estética em busca do "corpo perfeito". Uma dieta
+                    equilibrada inclui uma variedade de alimentos, de diferentes cores e texturas. Alimentos como
+                    peixes, carnes vermelhas menos gordurosas, brócolis e feijão também são ótimas fontes de proteínas e
+                    podem ser inseridos na dieta. </p>
+                <p>Ao refletir sobre as diferentes formas de se preparar os alimentos, como cozinhar um peito de frango
+                    ou fritá-lo, é possível entender que as transformações que um mesmo alimento pode passar
+                    relacionam-se ao modo de vida e à cultura de determinada população, além da descoberta do fogo e sua
+                    utilização para a transformação química de alimentos. </p>
+                <p>A seguir, você estudará as transformações químicas que podem ocorrer nos alimentos. </p>
+
+                <p class="text-center">
+                    <a href="index.html?page=5" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=7" class="bto-proximo no-print">Próximo: <strong>Transformação química dos
+                            alimentos</strong></a>
+                </p>
+
+            </div>
+            <div class="container pagina">
+                <h2>Transformação química dos alimentos</h2>
+
+                <img src="../../assets/objetos/img-ilustrativa-tansformacao-quimica.jpg" alt="img-fluid no-print"
+                    style="margin-left: auto; margin-right: auto; display: block; max-width: 450px; width: 100%;">
+
+                <p>Para compreender melhor como funciona o organismo, que transforma os alimentos e as biomoléculas
+                    estudadas em energia, é necessário entender como as transformações acontecem ao seu redor. A
+                    transformação é uma das principais propriedades dos materiais encontrados na natureza. </p>
+                <p>Esse poder transformador pode ser usado para produzir novos materiais, preservar alimentos, ganhar
+                    energia, combater doenças e muito mais. Nas ciências da natureza, há explicações que permitem
+                    sistematizar o conhecimento sobre as transformações ou, como são chamadas: as <strong>reações
+                        químicas</strong>. </p>
+
+                <h3>Reações químicas</h3>
+
+                <p>As reações acontecem a todo momento, por exemplo, durante cada respiração e também em milhares de
+                    vezes durante o uso de componentes eletrônicos, como celulares e computadores. </p>
+                <br>
+                <iframe aria-hidden="true" class="youtube-pl no-print"
+                    src="https://www.youtube.com/embed/772a5gQ5c1o?modestbranding=1" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+
+                <div class="visually-hidden">
+                    <p>Presente nos seres vivos, no corpo humano, nas plantas, nos alimentos, na indústria e em tudo!  </p>
+                    <p>Essa é a química! </p>
+                    <p>Essa ciência estuda as transformações que envolvem matéria e energia.  </p>
+                    <p>Quais são as suas aplicações?  </p>
+                    <p>Como formar novas substâncias por meio de ligações químicas?  </p>
+                    <p>A química está em nosso dia a dia, por exemplo, quando um alimento fica exposto às condições climáticas, ocorre a transformação em adubo, ação ocasionada por microrganismos que degradam a matéria orgânica. Outro exemplo é quando um objeto metálico permanece sob as intempéries climáticas, como sol, chuva e umidade, ele enferruja.  </p>
+                    <p>A transformação química é um fenômeno no qual ocorre a mudança de propriedades da matéria, a partir da transformação do seu estado inicial no estado final. </p>
+                </div>
+                <br>
+                <p>Uma reação pode ser identificada por sua evidência visual, que geralmente é algum tipo de mudança
+                    ocorrido no material. Você consegue perceber alguma reação química em um bolo, como na imagem a
+                    seguir? </p>
+
+                <img src="../../assets/objetos/fig03.png"
+                    alt="Uma reação pode ser identificada por sua evidência visual, que geralmente é algum tipo de mudança ocorrido no material. Você consegue perceber alguma reação química em um bolo, como na imagem a seguir?"
+                    class="img-fluid" style="margin-left: auto; margin-right: auto; display: block;">
+                <p class="legenda">
+                    Figura 3 – Bolo assado <br>
+
+                    Fonte: &lt;https://www.tudogostoso.com.br/receita/29124-bolo-simples.html&gt; Acesso em: 23 fev.
+                    2022.
+                </p>
+
+                <p>Em um bolo, os ingredientes se misturam e, sob forte calor, sofrem <strong>reações</strong> químicas
+                    que <strong>transformam</strong> uma massa disforme e difícil de <strong>digerir</strong> em um
+                    alimento gostoso e nutritivo. </p>
+                <p>A transformação e a reação dos múltiplos ingredientes do bolo é fácil de ver. Sua cor dourada, quando
+                    pronto, é um indicativo de várias transformações que ocorreram nas moléculas que o formam.
+                    Especificamente esse processo que “doura” o bolo, é possível ver diariamente, mas sem reparar.
+                    Analise esse fenômeno mais de perto assistindo ao vídeo a seguir: <strong>A reação de
+                        <em>Maillard</em></strong>. </p>
+
+
+                <br>
+                <iframe aria-hidden="true" class="youtube-pl no-print"
+                    src="https://www.youtube.com/embed/-1sKZZ0jN4g?modestbranding=1" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+                <div class="visually-hidden">
+                    <p>As reações químicas estão presentes em tarefas simples do dia a dia, como na hora de cozinhar. E algumas dessas reações inclusive deixam a nossa comida mais saborosa. </p>
+                    <p>Você já assou uma carne, tostou um queijo ou colocou um pão no forno? Se a resposta for sim, você já experienciou a reação de Maillard para deixar sua comida com aspecto, sabor e cheiro característicos.  </p>
+                    <p>Identificada pelo médico e químico francês Louis-Camille Maillard, em 1912, essa reação ocorre entre carboidratos ou açúcares e proteínas ou aminoácidos. Após várias etapas de interação, são produzidos compostos químicos, responsáveis por dourar o alimento. Em resumo, as moléculas genéricas de proteína, junto com grandes moléculas de açúcar, formam grandes moléculas de sabor.  </p>
+                    <p>Para que a reação aconteça, o alimento deve ser exposto a um calor de 120 graus Celsius ou mais. Cada alimento tem uma composição, por isso o resultado produzido, a partir dessa interação, gera cores, aspectos e sabores diferentes. É assim que o gosto de um frango assado fica diferente do gosto de um café torrado, por exemplo.  </p>
+                    <p>A química faz parte do nosso cotidiano, e com a reação de Maillard, você adiciona complexidade ao sabor dos alimentos, tornando-os muito mais apetitosos.  </p>
+
+
+
+                </div>
+                <br>
+
+                <p>As reações são transformações da matéria ao redor, em que uma substância se transforma em outra e
+                    ocorre necessariamente a quebra de ligações de um composto e a formação de novas ligações. O
+                    primeiro composto é chamado de reagente e os compostos finais, de produtos. Veja o exemplo seguir:
+                </p>
+                <br><br>
+                <a href="../../assets/objetos/fig04.png" target="_blank"><img src="../../assets/objetos/fig04.png"
+                        class="img-fluid" alt="" style="margin-left: auto; margin-right: auto; display: block"></a>
+                <div class="visually-hidden">Esquema gráfico de uma equação química. À esquerda, há os “Reagentes”, com
+                    o texto
+                    “Substâncias iniciais que reagem entre si”. Essas substâncias, representadas por círculos coloridos,
+                    estão ligadas pelo sinal de adição e são chamadas de “Regente A” e “Reagente B”. Elas passam por um
+                    processo de reação, indicado por uma seta, apontada para a direita, no meio da imagem. À direita, há
+                    os “Produtos da reação”, com o texto “Substâncias finais que se formam”. Essas substâncias são
+                    representadas por círculos coloridos, chamados de “Produto C” e “Produto D”, também ligados pelo
+                    sinal de adição.</div>
+                <p class="legenda">Figura 4 – Reação química <br>
+                    Fonte: Sesc EJA EAD (2022). </p>
+                <br><br>
+
+                <p>Essa maneira de descrever uma transformação é chamada de <strong>equação química</strong>. Ela
+                    demonstra que houve uma mudança estrutural nas substâncias, evidenciando assim uma
+                    reação/transformação. Não serão analisadas as reações complexas agora, o importante é perceber que
+                    essas transformações acontecem todo dia à sua volta e são importantíssimas.</p>
+                <div class="caixa icone refletir">
+                    <p>Observe com atenção, no seu dia a dia, as reações químicas que ocorrem durante atividades, como
+                        cozinhar, limpar e se movimentar. Você poderia dizer se essas reações químicas liberam ou
+                        consomem energia? </p>
+
+                </div>
+
+                <p>As reações fazem parte da vida constantemente, desde as transformações químicas para a quebra de
+                    nutrientes alimentares até a transformação química dos alimentos que ocorre nas diferentes maneiras
+                    de prepará-los. </p>
+
+                <p class="text-center">
+                    <a href="index.html?page=6" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=8" class="bto-proximo no-print">Próximo: <strong>Termoquímica dos
+                            alimentos</strong></a>
+                </p>
+
+            </div>
+
+            <div class="container pagina">
+                <h2>Termoquímica dos alimentos</h2>
+
+
+
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <a href="../../assets/objetos/img-ilustrativa-molecula.jpg" target="_blank"><img
+                                src="../../assets/objetos/img-ilustrativa-molecula.jpg" alt="" class="img-fluid"
+                                aria-hidden="true"></a>
+
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <p>As reações e as transformações podem explicar a mudança dos alimentos crus até seu cozimento.
+                            As
+                            transformações também podem explicar como um alimento é capaz de fornecer energia para o
+                            corpo. </p>
+                        <p>Durante as transformações, as moléculas podem ser quebradas e reorganizadas para
+                            <strong>absorver</strong> ou
+                            <strong>liberar</strong> energia. Por exemplo, durante a queima de combustíveis, como
+                            carvão, gasolina ou gás
+                            de cozinha, ocorre liberação de energia. Essa energia, chamada de energia térmica, se
+                            apresenta como fogo e pode ser medida. </p>
+                    </div>
+                </div>
+                <br><br>
+                <p>Da mesma forma, a quebra dos alimentos durante a digestão, e dos nutrientes pelas células, libera
+                    energia térmica que pode ser expressa em calorias (cal) ou quilocalorias (kcal). Você está
+                    familiarizado com as calorias dos alimentos? </p>
+
+                <div class="citacao">
+                    <p>“A ingestão calórica deve estar em equilíbrio com o gasto calórico” (OPAS, 2019). </p>
+                </div>
+                <p>Observe na imagem a seguir os valores nutricionais presentes em uma caixa de leite. Repare no valor
+                    da energia que esse alimento pode liberar quando ingerido em determinada porção.</p>
+                <br><br>
+                <a href="../../assets/objetos/fig05.png" target="_blank"><img src="../../assets/objetos/fig05.png"
+                        alt="" class="img-fluid"
+                        style="max-width: 350px; margin-left: auto; margin-right: auto; display: block;"></a>
+                <div class="visually-hidden">Rótulo de uma caixa de leite mostrando sua tabela de informações
+                    nutricionais
+                    referentes a uma porção de 200 mililitros. São informados os seguintes itens na tabela: valor
+                    energético, carboidratos, proteínas, gorduras totais, saturadas e trans, fibra alimentar, sódio e
+                    cálcio. O item valor energético contém 70kcal (=298kJ) por porção. </div>
+                <p class="legenda">
+                    Figura 5 – Rótulo de leite com informação nutricional <br>
+                    Fonte:
+                    &lt;https://pt.khanacademy.org/science/5-ano/vida-e-evoluo-alimentao/nutricao/a/calorias-e-quilocalorias&gt;.
+                    Acesso em: 2 mar. 2022.
+                </p>
+                <br><br>
+                <p>Segundo as informações apresentadas no rótulo, uma porção de 200mL de leite contém <a tabindex="0"
+                        role="button" class="tooltip-padrao" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-content="Toda aquela que está armazenada, mas ainda não sofreu mudança ou foi utilizada. A unidade de medida é Joule[J], porém a mais utilizada é a caloria [cal] ou quilocaloria [kcal].">energia
+                        potencial</a>
+                    de 70kcal (ou 298kJ). Esse alimento pode ser metabolizado pelo organismo em reações químicas para
+                    que forneça essa energia disponível ao organismo. </p>
+
+                <p class="text-center">
+                    <a href="index.html?page=7" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=9" class="bto-proximo no-print">Próximo: <strong>Cálculo da caloria dos
+                            alimentos</strong></a>
+                </p>
+
+            </div>
+            <div class="container pagina">
+                <h2>Cálculo da caloria dos alimentos</h2>
+
+                <p>Caloria é um termo utilizado para a medida de <strong>calor/energia</strong> liberado em uma
+                    transformação química. Para se calcular as calorias dos alimentos, eles são colocados dentro de um
+                    equipamento chamado <em>calorímetro</em>, como você pode ver no esquema a seguir: </p>
+
+                <a href="../../assets/objetos/fig06.jpg" target="_blank">
+                    <img src="../../assets/objetos/fig06.jpg"
+                        alt="A imagem mostra um esquema do equipamento calorímetro, detalhado com os nomes de todas as suas partes indicadas."
+                        class="img-fluid" style="margin-left: auto; margin-right: auto; display: block;">
+                </a>
+                <p class="legenda">Figura 6 – Calorímetro <br>
+
+                    Fonte: &lt;https://pt.dreamstime.com/illustration/calorimetro.html&gt;. Acesso em: 18 mar. 2022.
+                </p>
+
+
+                <p>O calorímetro funciona da seguinte forma: uma amostra do alimento é queimada dentro de uma câmara
+                    mergulhada na água. À medida que o alimento queima, ele perde sua <strong>energia</strong> em forma
+                    de calor e <strong>aquece</strong>
+                    a água. Para obter o resultado, mede-se a temperatura inicial e a final da água a fim de descobrir o
+                    calor específico do alimento (ou as calorias). </p>
+                <p>De forma semelhante, o corpo “queima” os alimentos e os transforma em energia. Mas como as calorias
+                    são “usadas” pelo organismo? Ao comer algo, costuma-se dizer que se ingere calorias. Na realidade, o
+                    alimento passa por uma série de processos de <strong>transformação</strong> dentro do organismo, e
+                    esses processos
+                    liberam a energia que o corpo necessita, além de liberar os nutrientes necessários ao funcionamento
+                    do organismo. </p>
+                <p>Quer saber mais sobre essa reação química? Assista ao vídeo a seguir e compreenda, com mais detalhes,
+                    a produção de energia no interior das células. </p>
+
+                <iframe aria-hidden="true" class="youtube-pl no-print"
+                    src="https://www.youtube.com/embed/DSJylbkDB2Y?modestbranding=1" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+                <div class="visually-hidden">
+                    <p>Processo bioquímico que ocorre na célula para a obtenção de energia: essa é a definição de respiração celular! </p>
+                    <p>Todas as células necessitam de energia para manter seu funcionamento. Para isso, utilizam um processo chamado de respiração celular, para oxidar, quebrar e retirar a energia contida em moléculas, como a glicose. Esse processo é fundamental para os seres vivos utilizarem-se dessa energia em suas funções vitais. </p>
+
+
+                </div>
+
+                <p>Ou seja, a alimentação e a respiração produzem combustível por meio das calorias que são ingeridas.
+                </p>
+
+                <p class="text-center">
+                    <a href="index.html?page=8" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=10" class="bto-proximo no-print">Próximo: <strong>Como balancear sua
+                            alimentação</strong></a>
+                </p>
+            </div>
+            <div class="container pagina">
+                <h2>Como balancear sua alimentação</h2>
+                <p>Você pôde entender até aqui que a alimentação é importante. Contudo, é necessário refletir sobre como
+                    balancear o que é ingerido, levando em conta os produtos alimentícios adquiridos. O corpo precisa de
+                    proteínas, vitaminas e minerais para se manter regulado, além disso, eles são essenciais em diversos
+                    momentos, como na construção dos músculos, na proteção dos ossos e na produção de hormônios. Quando
+                    há a falta de algum desses grupos de alimentos, o corpo não funciona corretamente ou na sua melhor
+                    forma. Os efeitos de uma alimentação desbalanceada podem ser: sono em excesso, má digestão,
+                    desatenção, raciocínio lento e, até mesmo, indisposição para atividades. </p>
+                <p>Talvez você já tenha ouvido que quanto mais colorido for o prato de comida, melhor. Inicialmente,
+                    pense sobre como alimentar-se além do paladar. Um alimento bonito é mais chamativo e interessante do
+                    que um feio e de cor pálida. Mesmo que seja um prato que você nunca experimentou ou com ingredientes
+                    que você não gosta, por seu visual, torna-se mais desejado. Qual dos pratos a seguir é mais atrativo
+                    para você? </p>
+                <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo. </p>
+
+
+                <div id="carouselId" class="carousel slide sesc" data-bs-ride="">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <a href="../../assets/objetos/slide01.jpg" target="_blank">
+                                <img src="../../assets/objetos/slide01.jpg" class="img-fluid" alt="First slide"
+                                    style="margin-left: auto; margin-right: auto; display: block">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="../../assets/objetos/slide02.jpg" target="_blank">
+                                <img src="../../assets/objetos/slide02.jpg" class="img-fluid" alt="Second slide"
+                                    style="margin-left: auto; margin-right: auto; display: block">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="../../assets/objetos/slide03.jpg" target="_blank">
+                                <img src="../../assets/objetos/slide03.jpg" class="img-fluid" alt="Second slide"
+                                    style="margin-left: auto; margin-right: auto; display: block; max-width: 501px;">
+                                 </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="../../assets/objetos/slide04.jpg" target="_blank">
+                                <img src="../../assets/objetos/slide04.jpg" class="img-fluid" alt="Second slide"
+                                    style="margin-left: auto; margin-right: auto; display: block; max-width: 501px;">
+                                </a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="3"></li>
+                    </ol>
+                </div>
+
+
+                <div class="visually-hidden">
+                    <h3>Comparação das cores dos alimentos entre os pratos </h3>
+                    <p>Alimentos com as mesmas cores </p>
+                    <p>Alimentos com cores diferentes </p>
+                    <p>As cores não são somente para embelezar o prato, mas indicam composições diferentes de vitaminas,
+                        minerais e substâncias bioativas e antioxidantes, como indica a Abeso (Associação Brasileira
+                        para o Estudo da Obesidade e Síndrome Metabólica). Nutricionistas indicam pelo menos cinco cores
+                        diferentes no prato. Isso não significa que um prato montado da mesma cor não tenha nenhum valor
+                        nutricional, mas indica que você escolheu alimentos do mesmo grupo alimentar, como batata e
+                        massa</p>
+                    <p> A seguir, alguns exemplos de alimentos separados por grupos de cores: </p>
+                    <p>Vermelho: tomate, morango, pimentão, pimenta, melancia</p>
+                    <p>Verde: brócolis, abobrinha, abacate, alface, agrião, rúcula</p>
+                    <p>Roxo: berinjela, uva, repolho, beterraba</p>
+                    <p>Amarelo: maracujá, pimentão, abacaxi, melão, milho</p>
+                    <p>Branco: mandioca, batata, alho, cebola, couve-flor, leite</p>
+                    <p>Marrom: carnes e leguminosas, como feijão e grão-de-bico</p>
+                    <p>Laranja: cenoura, abóbora, laranja, acerola, mamão</p>
+
+                </div>
+                <p>Com essa análise das cores dos alimentos, fica mais fácil montar um prato saudável. Agora você pode
+                    verificar também os alimentos industrializados que consome e como fazer escolhas melhores.
+                    Anteriormente, você pôde observar um rótulo de alimento com informações nutricionais, com destaque
+                    para suas calorias, agora será examinado além do valor energético. </p>
+
+                <div class="caixa icone dica">
+                    <p>Sempre que você for escolher um produto, comece por seus ingredientes. Os itens com maior
+                        quantidade aparecem primeiramente na lista. Se você for alérgico ou intolerante a algum item da
+                        lista, leve isso em consideração, pois poderá haver uma reação alérgica. Evite alimentos com
+                        ingredientes de nomes como <em>benzoato de sódio</em>, <em>hidroxianisol</em> <em>butilado</em> ou
+                        <em>hidroxitolueno</em> <em>butilado</em>,
+                        pois esses compostos têm por finalidade melhorar o aspecto e a durabilidade dos alimentos, sem
+                        agregar valor nutricional. Quanto menor a lista de ingredientes, menos processado o alimento
+                        será, portanto mais saudável. </p>
+                </div>
+
+                <p>Observe as recomendações do Ministério da Saúde, levando em consideração diferentes processos de
+                    produção de alimentos. </p>
+                <p class="no-print"><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo:</p>
+
+
+                <p class="text-center no-print">
+                    <button class="btn-sesc-image no-print" aria-hidden="true" data-bs-target="#guiaalimentarPop"
+                        data-bs-toggle="modal" style="margin-left: auto; margin-right: auto; display: block;">
+                        <div class="thumb_moldura">
+                            <img src="../../assets/objetos/guia-alimentar-bt.jpg" class="img-fluid" alt="">
+                        </div>
+                        <span class="btn-label">
+                            <span class="btn-label-texto">Guia alimentar para a população brasileira</span>
+                        </span>
+                    </button>
+                </p>
+                <div class="visually-hidden print">
+                    <h2>Guia Alimentar para a População Brasileira, do Ministério da Saúde </h2>
+                    <p>Na escolha dos alimentos, o tipo de processamento sofrido por ele interfere em
+                        seu sabor e sua qualidade nutricional. Os alimentos podem ser classificados em:
+                    </p>
+                    <p><strong>Alimentos <em>in natura</em> e minimamente processados </strong></p>
+                    <p>Base ideal para uma alimentação adequada e saudável </p>
+
+                    <h3><strong>Alimentos <em>in natura</em></strong></h3>
+                    <p>Obtidos de plantas ou animais e adquiridos para consumo sem terem
+                        sofrido processamento.</p>
+                    <h3><strong>Alimentos minimamente processados</strong></h3>
+                    <p>Alimentos <em>in natura</em> que sofreram alterações mínimas na
+                        indústria, como moagem, secagem, pasteurização etc. </p>
+
+
+
+                    <p><strong>Exemplos</strong>: verduras, legumes e frutas (frescas ou
+                        secas); tubérculos (batata, mandioca etc.); arroz; milho (em grão ou
+                        na espiga); cereais; farinhas; feijão e outras leguminosas;
+                        cogumelos (frescos ou secos); sucos de frutas (sem açúcar ou outras
+                        substâncias); leite; iogurte (sem açúcar ou outras substâncias);
+                        ovos; carnes; pescados; frutos do mar; castanhas (sem sal e açúcar);
+                        especiarias e ervas frescas ou secas; macarrão ou massas (feitas com
+                        farinhas e água); chá, café e água. </p>
+                    <h3>Óleos, gorduras, sal e açúcar </h3>
+                    <p>Utilizar em pequenas quantidades, pois são produtos alimentícios
+                        usados para temperar e cozinhar alimentos. Se utilizados com
+                        moderação em preparações culinárias, baseadas em alimentos<em> in
+                            natura </em>e minimamente processados, podem tornar a
+                        alimentação mais saborosa, mantendo seu equilíbrio nutricional.</p>
+                    <p><strong>Exemplos</strong>: óleos vegetais, azeite, manteiga, banha de
+                        porco, gordura de coco, açúcar de mesa branco, demerara ou mascavo,
+                        melado, rapadura e sal de cozinha. </p>
+                    <h3><strong>Alimentos processados</strong></h3>
+                    <p>Limitar o consumo, pois são produtos fabricados com a adição de sal,
+                        açúcar, óleo ou vinagre, o que os torna desequilibrados
+                        nutricionalmente. Por isso, seu consumo pode elevar o risco de
+                        doenças, como as do coração, obesidade e diabetes.</p>
+                    <p><strong>Exemplos</strong>: enlatados e conservas; extratos ou
+                        concentrados de tomate; frutas em calda e cristalizadas; castanhas
+                        adicionadas de sal ou açúcar; carnes salgadas; queijos e pães
+                        (feitos com farinha de trigo, leveduras, água e sal). </p>
+                    <h3><strong>Alimentos ultraprocessados </strong></h3>
+                    <p>Evitar o consumo, pois são formulações industriais feitas tipicamente
+                        com cinco ou mais ingredientes. Em geral, são pobres
+                        nutricionalmente e ricos em calorias, açúcar, gorduras, sal e
+                        aditivos químicos, com sabor realçado e maior prazo de validade.
+                        Podem favorecer a ocorrência de deficiências nutricionais,
+                        obesidade, doenças do coração e diabetes. </p>
+                    <p><strong>Exemplos</strong>: biscoitos, sorvetes e guloseimas; bolos; cereais matinais;
+                        barras de cereais; sopas, macarrão e temperos “instantâneos”;
+                        salgadinhos “de pacote”; refrescos e refrigerantes; achocolatados;
+                        iogurtes e bebidas lácteas adoçadas; bebidas energéticas; caldos com
+                        sabor carne, frango ou de legumes; maionese e outros molhos prontos;
+                        produtos congelados e prontos para consumo (massas, pizzas,
+                        hambúrgueres, <em>nuggets</em>, salsichas etc.); pães de forma, pães
+                        doces e produtos de panificação com substâncias como gordura vegetal
+                        hidrogenada, açúcar e outros aditivos químicos. </p>
+                </div>
+                <div aria-hidden="true" class="modal fade no-print" id="guiaalimentarPop" tabindex="-1" role="dialog"
+                    aria-labelledby="modelTitleId" aria-modal="true">
+                    <div class="modal-dialog modal-fullscreen" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <h2>Guia Alimentar para a População Brasileira, do Ministério da Saúde </h2>
+                                    <p>Na escolha dos alimentos, o tipo de processamento sofrido por ele interfere em
+                                        seu sabor e sua qualidade nutricional. Os alimentos podem ser classificados em:
+                                    </p>
+                                   
+                                 
+                                    <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo.
+                                    </p>
+
+                                    <!-- Painel com abas -->
+                                    <div class="painel-abas abas-soltas">
+                                        <ul class="nav nav-tabs" id="painelExemplo" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="tab01-tab" data-bs-toggle="tab"
+                                                    data-bs-target="#tab01" type="button" role="tab" aria-controls="home"
+                                                    aria-selected="true">
+                                                    Alimentos <em>in natura</em> e minimamente processados
+                                                </button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="tab02-tab" data-bs-toggle="tab" data-bs-target="#tab02"
+                                                    type="button" role="tab" aria-controls="profile" aria-selected="false">
+                                                    Alimentos <em>in natura</em>
+                                                </button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="tab03-tab" data-bs-toggle="tab" data-bs-target="#tab03"
+                                                    type="button" role="tab" aria-controls="messages" aria-selected="false">
+                                                    Alimentos minimamente processados
+                                                </button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="tab04-tab" data-bs-toggle="tab" data-bs-target="#tab04"
+                                                    type="button" role="tab" aria-controls="messages" aria-selected="false">
+                                                    Óleos, gorduras, sal e açúcar
+                                                </button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="tab05-tab" data-bs-toggle="tab" data-bs-target="#tab05"
+                                                    type="button" role="tab" aria-controls="messages" aria-selected="false">
+                                                    Alimentos processados
+                                                </button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="tab06-tab" data-bs-toggle="tab" data-bs-target="#tab06"
+                                                    type="button" role="tab" aria-controls="messages" aria-selected="false">
+                                                    Alimentos ultraprocessados
+                                                </button>
+                                            </li>
+                                        </ul>
+                                        <!-- Tab panes -->
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="tab01" role="tabpanel" aria-labelledby="tab01-tab">
+                                                <h3><strong>Alimentos <em>in natura</em> e minimamente processados </strong></h3>
+                                                <p>Base ideal para uma alimentação adequada e saudável </p>
+                                            </div>
+
+                                            <div class="tab-pane" id="tab02" role="tabpanel" aria-labelledby="tab02-tab">
+                                                <h3><strong>Alimentos <em>in natura</em></strong></h3>
+                                                <p>Obtidos de plantas ou animais e adquiridos para consumo sem terem sofrido processamento.</p>
+                                            </div>
+
+                                            <div class="tab-pane" id="tab03" role="tabpanel" aria-labelledby="tab03-tab">
+                                                <h3><strong>Alimentos minimamente processados</strong></h3>
+                                                <p>Alimentos <em>in natura</em> que sofreram alterações mínimas na
+                                                    indústria, como moagem, secagem, pasteurização etc. </p>
+                                      
+                                      
+                                      
+                                                <p><strong>Exemplos</strong>: verduras, legumes e frutas (frescas ou
+                                                    secas); tubérculos (batata, mandioca etc.); arroz; milho (em grão ou
+                                                    na espiga); cereais; farinhas; feijão e outras leguminosas;
+                                                    cogumelos (frescos ou secos); sucos de frutas (sem açúcar ou outras
+                                                    substâncias); leite; iogurte (sem açúcar ou outras substâncias);
+                                                    ovos; carnes; pescados; frutos do mar; castanhas (sem sal e açúcar);
+                                                    especiarias e ervas frescas ou secas; macarrão ou massas (feitas com
+                                                    farinhas e água); chá, café e água. </p>
+                                            </div>
+
+                                            <div class="tab-pane" id="tab04" role="tabpanel" aria-labelledby="tab04-tab">
+                                                <h3>Óleos, gorduras, sal e açúcar </h3>
+                                                <p>Utilizar em pequenas quantidades, pois são produtos alimentícios
+                                                    usados para temperar e cozinhar alimentos. Se utilizados com
+                                                    moderação em preparações culinárias, baseadas em alimentos<em> in
+                                                        natura </em>e minimamente processados, podem tornar a
+                                                    alimentação mais saborosa, mantendo seu equilíbrio nutricional.</p>
+                                                <p><strong>Exemplos</strong>: óleos vegetais, azeite, manteiga, banha de
+                                                    porco, gordura de coco, açúcar de mesa branco, demerara ou mascavo,
+                                                    melado, rapadura e sal de cozinha. </p>
+                                            </div>
+
+                                            <div class="tab-pane" id="tab05" role="tabpanel" aria-labelledby="tab05-tab">
+                                                <h3><strong>Alimentos processados</strong></h3>
+                                                <p>Limitar o consumo, pois são produtos fabricados com a adição de sal,
+                                                    açúcar, óleo ou vinagre, o que os torna desequilibrados
+                                                    nutricionalmente. Por isso, seu consumo pode elevar o risco de
+                                                    doenças, como as do coração, obesidade e diabetes.</p>
+                                                <p><strong>Exemplos</strong>: enlatados e conservas; extratos ou
+                                                    concentrados de tomate; frutas em calda e cristalizadas; castanhas
+                                                    adicionadas de sal ou açúcar; carnes salgadas; queijos e pães
+                                                    (feitos com farinha de trigo, leveduras, água e sal). </p>
+                                            </div>
+
+                                            <div class="tab-pane" id="tab06" role="tabpanel" aria-labelledby="tab06-tab">
+                                                <h3><strong>Alimentos ultraprocessados </strong></h3>
+                                                <p>Evitar o consumo, pois são formulações industriais feitas tipicamente
+                                                    com cinco ou mais ingredientes. Em geral, são pobres
+                                                    nutricionalmente e ricos em calorias, açúcar, gorduras, sal e
+                                                    aditivos químicos, com sabor realçado e maior prazo de validade.
+                                                    Podem favorecer a ocorrência de deficiências nutricionais,
+                                                    obesidade, doenças do coração e diabetes. </p>
+                                                <p><strong>Exemplos</strong>: biscoitos, sorvetes e guloseimas; bolos;
+                                                    cereais matinais;
+                                                    barras de cereais; sopas, macarrão e temperos “instantâneos”;
+                                                    salgadinhos “de pacote”; refrescos e refrigerantes; achocolatados;
+                                                    iogurtes e bebidas lácteas adoçadas; bebidas energéticas; caldos com
+                                                    sabor carne, frango ou de legumes; maionese e outros molhos prontos;
+                                                    produtos congelados e prontos para consumo (massas, pizzas,
+                                                    hambúrgueres, <em>nuggets</em>, salsichas etc.); pães de forma, pães
+                                                    doces e produtos de panificação com substâncias como gordura vegetal
+                                                    hidrogenada, açúcar e outros aditivos químicos. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">
+                    <a href="index.html?page=9" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=11" class="bto-proximo no-print">Próximo: <strong>Análise dos rótulos dos
+                            alimentos</strong></a>
+                </p>
+                <br><br><br>
+            </div>
+            <div class="container pagina">
+                <h2>Análise dos rótulos dos alimentos</h2>
+                <p>Após um olhar atento à lista de ingredientes, chegou a hora de contemplar a tabela de informação
+                    nutricional. Deixe o valor energético como último item de escolha em um produto alimentício, pois
+                    nem sempre aquele com menos calorias será o mais saudável. Opte por um alimento com o maior nível de
+                    fibras possível e evite aqueles com gordura saturada. Quanto às gorduras totais, busque aqueles com
+                    no máximo 5g para cada 100g de produto, pois, posteriormente, você verá os tipos de gordura e
+                    entenderá a importância de alguns. </p>
+
+                <p class="no-print"><strong>Clique</strong> ou <strong>toque</strong> para visualizar.</p>
+
+
+                <button class="btn-sesc-image no-print" aria-hidden="true" data-bs-target="#modelId"
+                    data-bs-toggle="modal" style="margin-left: auto; margin-right: auto; display: block;">
+                    <div class="thumb_moldura">
+                        <img src="../../assets/objetos/na-pratica-bt.jpg" class="img-fluid" alt="">
+                    </div>
+                    <span class="btn-label">
+                        <span class="btn-label-texto">Na prática</span>
+                    </span>
+                </button>
+
+                <div class="modal fade no-print" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                    aria-modal="true">
+                    <div class="modal-dialog modal-fullscreen" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <h2>Na prática</h2>
+
+
+                                    <p>Conforme os conhecimentos vistos até aqui, será analisado um dos produtos
+                                        mais consumidos no mundo, o pão. Na tabela a seguir, há dois rótulos de
+                                        diferentes tipos de pão, um de forma e outro integral. Os dois tipos têm
+                                        muitos ingredientes, incluindo conservantes, que não são benéficos para a
+                                        saúde, de acordo com o estudado até então. É possível perceber que o pão
+                                        integral é mais calórico e tem mais gorduras que o pão de forma. Nesse caso
+                                        específico, a única vantagem do pão integral é o valor superior de fibras,
+                                        que facilita o processo digestivo. </p>
+
+                                    <div class="table-responsive">
+                                        <table class="sesc">
+                                            <tr>
+                                                <th colspan="3">
+                                                    <p>Pão de forma</p>
+                                                </th>
+                                                <th colspan="3">
+                                                    <p>Pão integral</p>
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3">
+                                                    <p><strong>Lista de ingredientes</strong>: farinha de trigo
+                                                        enriquecida com ferro e ácido fólico, açúcar, óleo de soja,
+                                                        glúten, sal, sal hipossódico, conservadores propionato de
+                                                        cálcio e sorbato de potássio, emulsificante
+                                                        estearoil-2-lactil lactato de sódio e melhorador de farinha
+                                                        ácido ascórbico. </p>
+                                                </td>
+                                                <td colspan="3">
+                                                    <p><strong>Lista de ingredientes</strong>: farinha de trigo
+                                                        integral, farinha de trigo enriquecida com ferro e ácido
+                                                        fólico, glúten, castanha-do-pará, fibra de trigo, açúcar,
+                                                        óleo de soja, sementes de girassol, açúcar mascavo,
+                                                        nozes-pecã, farinha de linhaça, sal e conservadores
+                                                        propionato de cálcio e sorbato de potássio.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3">
+                                                    <strong>INFORMAÇÃO NUTRICIONAL </strong><br>Porção de 50g (2
+                                                    fatias)
+                                                </td>
+                                                <td colspan="3">
+                                                    <strong>INFORMAÇÃO NUTRICIONAL </strong><br>Porção de 50g (1,5
+                                                    fatias)
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>Quantidade por porção </td>
+                                                <td>%VD (*)</td>
+                                                <td></td>
+                                                <td>Quantidade por porção </td>
+                                                <td>%VD (*)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Valor energético </td>
+                                                <td>126kcal </td>
+                                                <td>6 </td>
+                                                <td>Valor energético </td>
+                                                <td>140kcal </td>
+                                                <td>7 </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Gorduras monoinsaturadas </td>
+                                                <td>0,2g </td>
+                                                <td>** </td>
+                                                <td>Gorduras monoinsaturadas </td>
+                                                <td>1,6g </td>
+                                                <td>** </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>Carboidratos </td>
+                                                <td>25g </td>
+                                                <td>8 </td>
+                                                <td>Carboidratos </td>
+                                                <td>19g </td>
+                                                <td>6</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Gorduras poli-insaturadas </td>
+                                                <td>0,4g </td>
+                                                <td>** </td>
+                                                <td>Gorduras poli-insaturadas </td>
+                                                <td>1,5g </td>
+                                                <td>** </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Proteínas </td>
+                                                <td>4,5g </td>
+                                                <td>6 </td>
+                                                <td>Proteínas </td>
+                                                <td>7,0g </td>
+                                                <td>9 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Colesterol </td>
+                                                <td>0mg </td>
+                                                <td>0 </td>
+                                                <td>Colesterol </td>
+                                                <td>0mg </td>
+                                                <td>0 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Gorduras totais </td>
+                                                <td>0,9g </td>
+                                                <td>2 </td>
+                                                <td>Gorduras totais </td>
+                                                <td>3,9g </td>
+                                                <td>7 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Fibra alimentar </td>
+                                                <td>1,2g </td>
+                                                <td>5 </td>
+                                                <td>Fibra alimentar </td>
+                                                <td>3,0g </td>
+                                                <td>12 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Gorduras saturadas </td>
+                                                <td>0g </td>
+                                                <td>0 </td>
+                                                <td>Gorduras saturadas </td>
+                                                <td>0,8g </td>
+                                                <td>4 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Sódio </td>
+                                                <td>182mg </td>
+                                                <td>8 </td>
+                                                <td>Sódio </td>
+                                                <td>162mg </td>
+                                                <td>7 </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Gorduras trans </td>
+                                                <td>0g </td>
+                                                <td>** </td>
+                                                <td>Gorduras trans </td>
+                                                <td>0g </td>
+                                                <td>** </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="8">
+
+                                                    <p>
+                                                        (*) % Valores Diários com base em uma dieta de 2.000 kcal ou
+                                                        8400 kJ.
+                                                        <br>Seus valores diários podem ser maiores ou menores
+                                                        dependendo de suas necessidades energéticas.
+                                                        <br>** VD não estabelecido.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <p class="legenda">Tabela 2 – Tipos de pão <br>
+                                        Fonte: Sesc EJA EAD (2022). </p>
+
+                                    <div class="caixa icone refletir">
+                                        <p>Agora você pode fazer sua própria análise. Procure ler diferentes rótulos na
+                                            sua casa e identifique as informações nutricionais. Quantas kcal (ou Cal com
+                                            C maiúsculo) são fornecidas por porção? E quantas são fornecidas se você
+                                            consumir todo o conteúdo da embalagem? Compare com o consumo diário médio de
+                                            calorias de uma pessoa. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visually-hidden print">
+                    <h2>Na prática</h2>
+
+
+                    <p>Conforme os conhecimentos vistos até aqui, será analisado um dos produtos
+                        mais consumidos no mundo, o pão. Na tabela a seguir, há dois rótulos de
+                        diferentes tipos de pão, um de forma e outro integral. Os dois tipos têm
+                        muitos ingredientes, incluindo conservantes, que não são benéficos para a
+                        saúde, de acordo com o estudado até então. É possível perceber que o pão
+                        integral é mais calórico e tem mais gorduras que o pão de forma. Nesse caso
+                        específico, a única vantagem do pão integral é o valor superior de fibras,
+                        que facilita o processo digestivo. </p>
+
+
+                    <table class="sesc">
+                        <tr>
+                            <th colspan="3">
+                                <p>Pão de forma</p>
+                            </th>
+                            <th colspan="3">
+                                <p>Pão integral</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p><strong>Lista de ingredientes</strong>: farinha de trigo
+                                    enriquecida com ferro e ácido fólico, açúcar, óleo de soja,
+                                    glúten, sal, sal hipossódico, conservadores propionato de
+                                    cálcio e sorbato de potássio, emulsificante
+                                    estearoil-2-lactil lactato de sódio e melhorador de farinha
+                                    ácido ascórbico. </p>
+                            </td>
+                            <td colspan="3">
+                                <p><strong>Lista de ingredientes</strong>: farinha de trigo
+                                    integral, farinha de trigo enriquecida com ferro e ácido
+                                    fólico, glúten, castanha-do-pará, fibra de trigo, açúcar,
+                                    óleo de soja, sementes de girassol, açúcar mascavo,
+                                    nozes-pecã, farinha de linhaça, sal e conservadores
+                                    propionato de cálcio e sorbato de potássio.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <strong>INFORMAÇÃO NUTRICIONAL </strong><br>Porção de 50g (2
+                                fatias)
+                            </td>
+                            <td colspan="3">
+                                <strong>INFORMAÇÃO NUTRICIONAL </strong><br>Porção de 50g (1,5
+                                fatias)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Quantidade por porção </td>
+                            <td>%VD (*)</td>
+                            <td></td>
+                            <td>Quantidade por porção </td>
+                            <td>%VD (*)</td>
+                        </tr>
+                        <tr>
+                            <td>Valor energético </td>
+                            <td>126kcal </td>
+                            <td>6 </td>
+                            <td>Valor energético </td>
+                            <td>140kcal </td>
+                            <td>7 </td>
+                        </tr>
+                        <tr>
+                            <td>Gorduras monoinsaturadas </td>
+                            <td>0,2g </td>
+                            <td>** </td>
+                            <td>Gorduras monoinsaturadas </td>
+                            <td>1,6g </td>
+                            <td>** </td>
+
+                        </tr>
+                        <tr>
+                            <td>Carboidratos </td>
+                            <td>25g </td>
+                            <td>8 </td>
+                            <td>Carboidratos </td>
+                            <td>19g </td>
+                            <td>6</td>
+                        </tr>
+
+                        <tr>
+                            <td>Gorduras poli-insaturadas </td>
+                            <td>0,4g </td>
+                            <td>** </td>
+                            <td>Gorduras poli-insaturadas </td>
+                            <td>1,5g </td>
+                            <td>** </td>
+                        </tr>
+
+                        <tr>
+                            <td>Proteínas </td>
+                            <td>4,5g </td>
+                            <td>6 </td>
+                            <td>Proteínas </td>
+                            <td>7,0g </td>
+                            <td>9 </td>
+                        </tr>
+
+                        <tr>
+                            <td>Colesterol </td>
+                            <td>0mg </td>
+                            <td>0 </td>
+                            <td>Colesterol </td>
+                            <td>0mg </td>
+                            <td>0 </td>
+                        </tr>
+
+                        <tr>
+                            <td>Gorduras totais </td>
+                            <td>0,9g </td>
+                            <td>2 </td>
+                            <td>Gorduras totais </td>
+                            <td>3,9g </td>
+                            <td>7 </td>
+                        </tr>
+
+                        <tr>
+                            <td>Fibra alimentar </td>
+                            <td>1,2g </td>
+                            <td>5 </td>
+                            <td>Fibra alimentar </td>
+                            <td>3,0g </td>
+                            <td>12 </td>
+                        </tr>
+
+                        <tr>
+                            <td>Gorduras saturadas </td>
+                            <td>0g </td>
+                            <td>0 </td>
+                            <td>Gorduras saturadas </td>
+                            <td>0,8g </td>
+                            <td>4 </td>
+                        </tr>
+
+                        <tr>
+                            <td>Sódio </td>
+                            <td>182mg </td>
+                            <td>8 </td>
+                            <td>Sódio </td>
+                            <td>162mg </td>
+                            <td>7 </td>
+                        </tr>
+
+                        <tr>
+                            <td>Gorduras trans </td>
+                            <td>0g </td>
+                            <td>** </td>
+                            <td>Gorduras trans </td>
+                            <td>0g </td>
+                            <td>** </td>
+                        </tr>
+                        <tr>
+                            <td colspan="8">
+
+                                <p>
+                                    (*) % Valores Diários com base em uma dieta de 2.000 kcal ou
+                                    8400 kJ.
+                                    <br>Seus valores diários podem ser maiores ou menores
+                                    dependendo de suas necessidades energéticas.
+                                    <br>** VD não estabelecido.
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <p class="legenda">Tabela 2 – Tipos de pão <br>
+                        Fonte: Sesc EJA EAD (2022). </p>
+
+                    <div class="caixa icone refletir">
+                        <p>Agora você pode fazer sua própria análise. Procure ler diferentes rótulos na
+                            sua casa e identifique as informações nutricionais. Quantas kcal (ou Cal com
+                            C maiúsculo) são fornecidas por porção? E quantas são fornecidas se você
+                            consumir todo o conteúdo da embalagem? Compare com o consumo diário médio de
+                            calorias de uma pessoa. </p>
+                    </div>
+                </div>
+                <p>Além dos problemas de saúde apresentados anteriormente e os diferentes tipos de colesterol, algumas
+                    outras questões vinculadas à estética corporal têm se tornado relevantes na atualidade. É comum
+                    observar adolescentes, adultos e até crianças deslumbradas com o padrão de beleza estabelecido pela
+                    mídia a partir de influenciadores digitais, <em>tiktokers</em> e outros. O padrão estabelecido está
+                    comumente
+                    vinculado a um corpo musculoso, totalmente definido e/ou completamente magro. O texto a seguir traz
+                    uma reflexão acerca da saúde e da estética corporal. </p>
+
+                <div class="caixa icone refletir">
+                    <p>Aproveite para refletir sobre suas escolhas alimentares e sua motivação para uma alimentação
+                        saudável e equilibrada. </p>
+                </div>
+                <p class="text-center">
+                    <a href="index.html?page=10" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=12" class="bto-proximo no-print">Próximo: <strong>A saúde e a estética
+                            corporal</strong></a>
+                </p>
+                <br><br><br>
+            </div>
+
+            <div class="container pagina">
+                <h2>A saúde e a estética corporal</h2>
+                <img src="../../assets/objetos/img-ilustrativa-saude-estetica.jpg" alt="img-fluid no-print"
+                    style="margin-left: auto; margin-right: auto; display: block; max-width: 450px; width: 100%;">
+                <p>É importante saber que, muitas vezes, a discussão sobre alimentação balanceada e saudável é motivada
+                    por diversos fatores. Destes, os mais comuns são os cuidados com a saúde e os cuidados com o corpo.
+                    Segundo a Organização Mundial da Saúde (OMS), quando o assunto é saúde, os transtornos do
+                    comportamento alimentar têm aumentado em muitos países. </p>
+                <p>No Brasil, segundo o relatório da Pesquisa de Vigilância de Fatores de Risco e Proteção para Doenças
+                    crônicas por Inquérito Telefônico (<strong>Vigitel</strong>), do Ministério da Saúde, o número de
+                    pessoas com sobrepeso e obesidade aumentou 67,8% entre 2006 e 2018. Esse é um aumento preocupante,
+                    pois a obesidade é um fator de risco para várias outras doenças, como diabetes, doenças
+                    cardiovasculares e problemas como artrite e artrose. </p>
+                <br><br>
+                <div class="caixa">
+                    <p>Além da obesidade, pessoas com anorexia ou bulimia desenvolvem foco excessivo no corpo, assumindo
+                        percepções distorcidas da forma do próprio corpo e relacionando a autoestima ao próprio peso
+                        corporal. Esses transtornos resultam em alterações nos eletrólitos corporais, inflamação
+                        gastrointestinal e até mesmo desnutrição. </p>
+
+                </div>
+                <br><br>
+                <p>Grande parte dessas doenças estão relacionadas com a busca pelo "corpo perfeito". Esse padrão, em
+                    geral, no caso das mulheres, corresponde à magreza e nem sempre leva em consideração aspectos
+                    relacionados à saúde. Nos homens, geralmente, envolve um aumento da massa muscular e do tecido
+                    muscular definido, que, às vezes, é alcançado com o uso de substâncias que apresentam alto risco
+                    à saúde, como esteroides anabolizantes. </p>
+                <p>Conforme a ótica de Alexandre Beck, por meio de seu protagonista Armandinho, a imagem a seguir
+                    ironiza a idealização de um corpo perfeito. </p>
+                <br><br>
+                <a href="../../assets/objetos/fig07.png" target="_blank"><img src="../../assets/objetos/fig07.png"
+                        alt="" style="margin-left: auto; margin-right: auto; display: block" class="img-fluid"></a>
+                <p class="legenda">Figura 7 – Idealização de corpo perfeito <br>Fonte:
+                    &lt;https://www.facebook.com/page/488356901209621/search/?q=dia%20do%20educador%20&gt;. Acesso em:
+                    14 abr. 2022. </p>
+                <br><br>
+                <p>No entanto, a preocupação com a forma do corpo não é novidade. Ao longo da história humana, relatos
+                    dessa busca sugerem que, até certo ponto, a beleza é relativa. Em diferentes épocas e culturas, os
+                    padrões de beleza mudaram, e isso está intimamente relacionado à disponibilidade de alimentos e à
+                    classe social. </p>
+
+                <h3>
+                    Evolução dos padrões de beleza
+                </h3>
+
+
+
+                <div class="linhadotempo">
+                    <div class="item">
+                        <p><strong>Idade Média – Século V ao XV </strong></p>
+                        <p>Ao olhar registros medievais, vê-se que a magreza é sinônimo de pobreza e doença. Corpo com
+                            mais volume significava abundância e riqueza e, portanto, beleza. </p>
+
+                    </div>
+                    <div class="item">
+                        <p><strong>Revolução Industrial – Século XIX </strong></p>
+                        <p>Desde a Revolução Industrial no século 19, as pessoas têm cada vez mais acesso a alimentos
+                            diversificados e, com esse fenômeno, a obesidade aumentou. </p>
+
+                    </div>
+                    <div class="item">
+                        <p><strong>Século XX</strong></p>
+                        <p>Esses fatores estão moldando o comportamento alimentar na sociedade ao longo do século 20 e
+                            ligando a magreza à beleza e ao autocontrole. Assim, "comer bem" continua associado a
+                            aspectos econômicos e sociais, porém com outros significados. Pessoas com tempo e dinheiro
+                            para “esculpir” o próprio corpo passaram a ser o modelo de beleza.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="caixa icone saiba-mais">
+                    <p>No Brasil, por exemplo, o padrão de beleza é caracterizado por um processo ocidental, e você
+                        poderá encontrar mais informações sobre esse assunto nos textos: Imagem corporal e distúrbios
+                        alimentares: análise das opiniões de alunos do ensino médio, Revista Multidisciplinar da Saúde
+                        (RMS); e The history of the “ideal” woman and where that has left us, CNN. </p>
+                </div>
+
+                <p>Além da bibliografia sugerida, essa temática poderá ser melhor compreendida no material de Ciências
+                    Humanas, pois nesse espaço são discutidas temáticas como <strong>a globalização, a cultura e as
+                        fronteiras
+                        culturais.</strong> </p>
+                <p>Essa mudança cria muitos problemas psicológicos, especialmente entre os jovens. Os jovens que atingem
+                    um certo nível de massa muscular tornam-se um marcador de sucesso e felicidade, gerando disparidade
+                    social. Muitas pessoas acreditam que obtendo o "corpo perfeito" serão amadas e “seguidas”. O mais
+                    importante é o equilíbrio e a saúde em primeiro lugar. </p>
+                <p>Qualquer pessoa pode optar por buscar o que achar mais bonito, porém deve sempre estar atenta a uma
+                    alimentação saudável e equilibrada. Hábitos alimentares irregulares, alto consumo de alimentos
+                    industrializados, adesão às “dietas da moda” sem reflexão e uso de substâncias ilícitas são alguns
+                    dos comportamentos que devem ser repensados e discutidos. </p>
+
+                <p class="text-center">
+                    <a href="index.html?page=11" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=13" class="bto-proximo no-print">Próximo: <strong>Transtornos
+                            alimentares</strong></a>
+                </p>
+                <br><br><br>
+            </div>
+
+
+            <div class="container pagina">
+                <h2>Transtornos alimentares</h2>
+
+                <img src="../../assets/objetos/img-ilustrativa-transtorno-alimentar.jpg" alt="img-fluid no-print"
+                    style="margin-left: auto; margin-right: auto; display: block; max-width: 450px; width: 100%;">
+                <p>Os transtornos alimentares são condições preocupantes relacionadas a comportamentos alimentares
+                    recorrentes que afetam negativamente a saúde, as emoções e a capacidade de atuar em áreas
+                    importantes da vida. </p>
+                <p>Os transtornos alimentares mais comuns são: </p>
+                <p class="no-print"><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo </p>
+               
+               
+                <div class="visually-hidden">
+                    <h3><strong>Anorexia</strong></h3>
+                    <p>Medo obsessivo de ganhar peso, recusa em manter um peso corporal saudável e uma percepção
+                        irreal da imagem corporal.</p>
+                        <h3><strong>Bulimia</strong></h3>
+                        <p>Compulsão alimentar repetida, seguida por comportamentos que compensam os excessos, como
+                            vômitos forçados, exercícios excessivos ou uso frequente de laxantes ou diuréticos
+                            (esses indivíduos frequentemente perdem o controle sobre sua alimentação).</p>
+                        </div>
+
+
+                <div class="painel-abas no-print" aria-hidden="true">
+                    <ul class="nav nav-tabs" id="painelExemplo2" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="tab01-tab2" data-bs-toggle="tab"
+                                data-bs-target="#tab201" type="button" role="tab" aria-controls="home"
+                                aria-selected="true"><strong>Anorexia</strong></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="tab02-tab2" data-bs-toggle="tab" data-bs-target="#tab202"
+                                type="button" role="tab" aria-controls="profile"
+                                aria-selected="false"><strong>Bulimia</strong></button>
+                        </li>
+
+
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab201" role="tabpanel" aria-labelledby="tab01-tab">
+                            <h3 class="only-print"><strong>Anorexia</strong></h3>
+                            <p>Medo obsessivo de ganhar peso, recusa em manter um peso corporal saudável e uma percepção
+                                irreal da imagem corporal.</p>
+
+                        </div>
+                        <div class="tab-pane" id="tab202" role="tabpanel" aria-labelledby="tab02-tab">
+                            <h3 class="only-print"><strong>Bulimia</strong></h3>
+                            <p>Compulsão alimentar repetida, seguida por comportamentos que compensam os excessos, como
+                                vômitos forçados, exercícios excessivos ou uso frequente de laxantes ou diuréticos
+                                (esses indivíduos frequentemente perdem o controle sobre sua alimentação).</p>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="only-print">
+                    <h3><strong>Anorexia</strong></h3>
+                            <p>Medo obsessivo de ganhar peso, recusa em manter um peso corporal saudável e uma percepção
+                                irreal da imagem corporal.</p>
+                    <h3><strong>Bulimia</strong></h3>
+                    <p>Compulsão alimentar repetida, seguida por comportamentos que compensam os excessos, como
+                        vômitos forçados, exercícios excessivos ou uso frequente de laxantes ou diuréticos
+                        (esses indivíduos frequentemente perdem o controle sobre sua alimentação).</p>
+                </div>
+                <p>Segundo o doutor Augusto Pimazoni, endocrinologista clínico pela Universidade Federal de São Paulo:
+                </p>
+                <p class="citacao">Os transtornos estão vinculados à ingestão inadequada ou excessiva de alimentos, o
+                    que pode, em última instância, prejudicar o bem-estar de um indivíduo. As formas mais comuns de
+                    transtornos alimentares afetam tanto mulheres quanto homens. Transtornos alimentares podem se
+                    desenvolver durante qualquer fase da vida, mas geralmente aparecem durante a adolescência ou na
+                    idade adulta jovem. Classificados como uma doença médica, o tratamento adequado pode ser altamente
+                    eficaz para muitos dos tipos específicos de distúrbios alimentares. </p>
+                <p>Diferentemente da bulimia, episódios de compulsão alimentar não são seguidos por comportamentos
+                    compensatórios, como vômitos forçados, jejum ou exercícios excessivos. Por causa disso, muitas
+                    pessoas que sofrem dessa condição podem ser obesas e com maior risco de desenvolver outras
+                    condições, como doenças cardiovasculares. </p>
+                <p>Normalmente, a desinformação sobre a ingestão de alimentos supergordurosos pode colaborar para o
+                    adoecimento do corpo. As gorduras <em>trans</em>, por exemplo, são gorduras (lipídios) de interesse
+                    da
+                    população, pois estão relacionadas às preocupações crescentes sobre os efeitos na saúde. Apesar de
+                    ser alvo de atenção, é importante notar que a gordura, muitas vezes, desempenha um papel importante
+                    em no corpo, por isso a Organização Mundial da Saúde recomenda que a ingestão diária de gordura seja
+                    equivalente a cerca de 30% do valor calórico total. </p>
+
+                <p class="text-center">
+                    <a href="index.html?page=12" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=14" class="bto-proximo no-print">Próximo: <strong>Da alimentação à
+                            atividade física</strong></a>
+                </p>
+                <br><br><br>
+            </div>
+            <div class="container pagina">
+                <h2>Da alimentação à atividade física</h2>
+
+                <img src="../../assets/objetos/img-ilustrativa-alimentacao.jpg" alt="img-fluid no-print"
+                    style="margin-left: auto; margin-right: auto; display: block; max-width: 450px; width: 100%;">
+
+                <p>A alimentação é importante, mas qual a sua ligação com uma vida saudável? Pode-se dizer que o corpo é
+                    como uma máquina e, portanto, exige manutenções e um combustível para funcionar. </p>
+                <p>Quanto melhor a qualidade do alimento (combustível), melhor será a qualidade do desempenho do corpo
+                    (máquina). O corpo está sempre em atividade, mesmo ao dormir, então seu gasto energético pode variar
+                    para mais ou para menos, porém nunca é zero. Agora, imagine todas as suas atividades diárias, como
+                    cozinhar, limpar, trabalhar, puxar, empurrar, correr, caminhar e pensar. Cada uma delas tem uma
+                    determinada intensidade e um gasto energético diferente. </p>
+                <p>Conhecendo a origem da história humana ao longo do tempo, sabe-se que a realidade de hoje é bem
+                    diferente do que há dez mil anos. Não há mais a necessidade de caçar, coletar alimentos, construir
+                    abrigos ou ainda lutar pela manutenção de uma posição na cadeia alimentar. Entretanto, o consumo
+                    energético do corpo não mudou. Assim, sem esses fatores e atividades do passado, o corpo acaba
+                    acumulando mais energia, em forma de gordura, por exemplo. </p>
+                <br><br>
+                <div class="caixa">
+                    <p>Problemas graves de saúde pública, como obesidade e sedentarismo, têm sido fatores relevantes na
+                        sociedade. Estudos apontam a necessidade, além da alimentação saudável, de exercícios
+                        periódicos, pois, apesar da evolução humana, o funcionamento do organismo ainda é muito próximo
+                        aos tempos primitivos.</p>
+                </div>
+                <br><br>
+                <p>As atividades físicas têm, além dos benefícios à saúde, um importante papel social e de prazer
+                    pessoal. Durante uma prática esportiva, é comum criar e aprimorar laços afetivos e, no final, há uma
+                    descarga de endorfina, o hormônio responsável pela sensação de bem-estar no cérebro. Enquanto para a
+                    maioria é uma prática de lazer e manutenção da saúde física, para outros torna-se profissão. Os
+                    atletas de alto desempenho dedicam seu tempo a aprender, aprimorar e praticar técnicas que melhorem
+                    sua <em>performance</em>. </p>
+                <p>Uma atividade física que faz parte tanto do cotidiano quanto de competições é o ato de se locomover.
+                    Independentemente do meio utilizado, é uma das atividades mais comuns entre humanos. Pode ser por
+                    meio de equipamentos, como <em>skate</em>, bicicleta, cadeira de rodas, ou por meio do próprio
+                    corpo,
+                    caminhando, correndo e pulando. Em qualquer dos meios utilizados, gasta-se energia essa atividade.
+                </p>
+
+                <div class="caixa icone importante">
+                    <p>Essa energia, que envolve movimento, é chamada de <strong>energia cinética</strong>. Esse
+                        conceito envolve, além de <strong>velocidade</strong>, a <strong>massa</strong> do corpo que se
+                        move. </p>
+                </div>
+
+                <p>Dois dos esportes mais acessíveis e recomendados por especialistas são a caminhada e a corrida. Como
+                    é possível praticá-los em diversos ambientes, tornaram-se as atividades favoritas das pessoas
+                    preocupadas com a saúde. Lembrando que, quanto maior a velocidade, maior a energia. A corrida é
+                    aquela que representa a maior transformação energética no corpo, sendo o exercício escolhido por
+                    praticantes com intuito de um gasto calórico maior que a caminhada. Importante procurar
+                    profissionais para não errar na execução dos exercícios e para os cuidados com a saúde individual.
+                </p>
+                <p>A energia cinética não está relacionada somente ao corpo humano, mas sim com tudo que se move. Como
+                    essa energia está relacionada diretamente com a massa e a velocidade, também pode-se associá-la à
+                    energia de um carro em movimento, que, além de atingir alta velocidade, tem uma massa considerável.
+                    Até mesmo corpos considerados leves podem conter grande energia cinética. Um exemplo é o projétil de
+                    uma arma de fogo, que, mesmo com pouca massa, atinge altíssimas velocidades. Veja o exemplo de um
+                    carro na imagem a seguir. </p>
+
+
+                <a href="../../assets/objetos/fig08.jpg" target="_blank">
+                    <img src="../../assets/objetos/fig08.jpg"
+                        alt="A imagem mostra um teste realizado com um veículo em alta velocidade. Um carro prateado choca-se contra uma parede, demonstrando a dispersão de energia na colisão."
+                        class="img-fluid" style="margin-left: auto; margin-right: auto; display: block;">
+                </a>
+                <p class="legenda">Figura 8 – Teste de acidente veicular <br>
+                    Fonte:
+                    &lt;https://quatrorodas.abril.com.br/wp-content/uploads/2018/05/od0818fto1_oncrash_cam7.jpg?resize=650,382&gt;.
+                    Acesso em: 20 abr. 2022. </p>
+
+                <p>O corpo humano pode transformar a energia dos alimentos para realizar inúmeras tarefas, com intenção,
+                    como pular e correr. Além dessas, o uso da força é aplicado também em diversos momentos da vida,
+                    como levantar uma caixa, segurar uma sacola, realizar uma mudança, carregar um filho, empurrar um
+                    balanço, chutar uma bola, entre outras. Provavelmente, você já experimentou empurrar, puxar ou
+                    levantar objetos de diferentes massas, como um balde ou uma folha de papel. Objetos com maior massa
+                    exigem mais força para movimentá-los, logo, mais energia. </p>
+                <p><strong>Clique</strong> ou <strong>toque</strong> para visualizar o conteúdo </p>
+
+                <button class="btn-sesc-image no-print" aria-hidden="true" data-bs-target="#isaac" data-bs-toggle="modal"
+                    style="margin-left: auto; margin-right: auto; display: block;">
+                    <img src="../../assets/objetos/isaac-newton-bt.jpg" class="img-fluid" alt="">
+                    <span class="btn-label">Isaac Newton</span>
+                </button>
+                <div class="modal fade" aria-hidden="true" id="isaac" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                    aria-modal="true">
+                    <div class="modal-dialog modal-fullscreen" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+
+                                    <h2 class="modal-title">Isaac Newton</h2>
+                                    <p>Isaac Newton foi um matemático, físico, astrônomo, teólogo e autor inglês
+                                        (descrito em seus dias como um "filósofo natural") que é amplamente reconhecido
+                                        como um dos cientistas mais influentes de todos os tempos e como uma
+                                        figura-chave na Revolução Científica.</p>
+                                    <p>Físico no século 17, conseguiu relacionar que a força é a multiplicação da massa
+                                        pela aceleração, sendo esta conhecida como a <strong>lei da dinâmica</strong> ou
+                                        também <strong>2ª lei de
+                                            Newton</strong>. De acordo com o raciocínio das transformações, analise o
+                                        exemplo a
+                                        seguir. </p>
+
+                                    <a href="../../assets/objetos/fluxograma01.jpg" target="_blank">
+                                        <img src="../../assets/objetos/fluxograma01.jpg"
+                                            style="margin-left: auto; margin-right: auto; display: block; " alt=""
+                                            class="img-fluid quebrar-depois">
+                                    </a>
+                                    <div class="visually-hidden">
+                                        A imagem mostra um fluxograma chamado “Empurrar uma geladeira”, começando pelo
+                                        item “ingerir o alimento”, seguido de uma seta para a direita com o item
+                                        “metabolismo processando”, o próximo passo abaixo é “energia é armazenada no
+                                        corpo”, seguido de “força no braço” e, por fim, “empurramos a geladeira”, com
+                                        três setas pretas apontando para uma geladeira verde à direita.
+                                    </div>
+
+                                    <p class="legenda">
+                                        Fluxograma 1 – O caminho da alimentação até o ato de empurrar uma geladeira <br>
+                                        Fonte: Sesc EJA EAD (2022).
+                                    </p>
+
+                                    <p>Você pode ter percebido que até aqui foram descritos movimentos que você comanda
+                                        por meio do seu desejo e vontade, como correr, caminhar, levantar, chutar, entre
+                                        outros. Mas existem também outras atividades involuntárias, aquelas que você não
+                                        controla diretamente, como respirar, dormir, bombear o sangue e manter a
+                                        temperatura corporal ideal. Então, você deve estar pensando “Como todas as
+                                        atividades do corpo se transformam em energia, as involuntárias também”. Sim,
+                                        você está certo!</p>
+                                    <div class="caixa">
+                                        <p>A maioria das atividades autônomas citadas são de baixo consumo energético,
+                                            mas não descartam a necessidade de combustível para sua realização. </p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visually-hidden">
+                    <h2 class="modal-title">Isaac Newton</h2>
+                    <p>Isaac Newton foi um matemático, físico, astrônomo, teólogo e autor inglês
+                        (descrito em seus dias como um "filósofo natural") que é amplamente reconhecido
+                        como um dos cientistas mais influentes de todos os tempos e como uma
+                        figura-chave na Revolução Científica.</p>
+                    <p>Físico no século 17, conseguiu relacionar que a força é a multiplicação da massa
+                        pela aceleração, sendo esta conhecida como a <strong>lei da dinâmica</strong> ou
+                        também <strong>2ª lei de
+                            Newton</strong>. De acordo com o raciocínio das transformações, analise o
+                        exemplo a
+                        seguir. </p>
+
+                  
+                    <p>
+                        A imagem mostra um fluxograma chamado “Empurrar uma geladeira”, começando pelo
+                        item “ingerir o alimento”, seguido de uma seta para a direita com o item
+                        “metabolismo processando”, o próximo passo abaixo é “energia é armazenada no
+                        corpo”, seguido de “força no braço” e, por fim, “empurramos a geladeira”, com
+                        três setas pretas apontando para uma geladeira verde à direita.
+                    </p>
+
+                    <p class="legenda">
+                        Fluxograma 1 – O caminho da alimentação até o ato de empurrar uma geladeira <br>
+                        Fonte: Sesc EJA EAD (2022).
+                    </p>
+
+                    <p>Você pode ter percebido que até aqui foram descritos movimentos que você comanda
+                        por meio do seu desejo e vontade, como correr, caminhar, levantar, chutar, entre
+                        outros. Mas existem também outras atividades involuntárias, aquelas que você não
+                        controla diretamente, como respirar, dormir, bombear o sangue e manter a
+                        temperatura corporal ideal. Então, você deve estar pensando “Como todas as
+                        atividades do corpo se transformam em energia, as involuntárias também”. Sim,
+                        você está certo!</p>
+                    <div class="caixa">
+                        <p>A maioria das atividades autônomas citadas são de baixo consumo energético,
+                            mas não descartam a necessidade de combustível para sua realização. </p>
+
+                    </div>
+                </div>
+                <br>
+                <p class="text-center">
+                    <a href="index.html?page=13" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=15" class="bto-proximo no-print">Próximo: <strong>Temperatura
+                            corporal</strong></a>
+                </p>
+                <br><br><br>
+
+            </div>
+            <div class="container pagina">
+                <h2>Temperatura corporal</h2>
+                <p>É importante saber diferenciar o conceito de temperatura do de calor. Enquanto a
+                    <strong>temperatura</strong> trata da
+                    medida do grau de agitação das moléculas, o <strong>calor</strong> é a energia térmica que flui de
+                    um corpo para
+                    outro. </p>
+                <p>Cada ser vivo tem uma temperatura ideal para que o corpo funcione de maneira correta. Nos humanos, a
+                    temperatura ideal é em torno de 37 ºC (Celsius). Evidencia-se então mais uma transformação
+                    energética, em que a energia armazenada no corpo se transforma em calor. </p>
+
+                <div class="caixa icone pergunta">
+                    <p><strong>O que acontece para que seja possível sentir se algo está quente ou frio?</strong> </p>
+
+                    <p>Essa pergunta só pode ser respondida analisando o corpo e o ambiente onde ele está. </p>
+                </div>
+
+
+
+                <p>A <strong>lei zero da termodinâmica</strong> diz que o calor (energia) só pode fluir naturalmente de
+                    um corpo de temperatura maior para outro de temperatura menor e, ainda, também comenta sobre o fato
+                    de não ocorrer transferência de energia entre corpos que estão em equilíbrio. O que significa que,
+                    ao sentir frio, na verdade, o corpo está com uma temperatura maior que o ambiente e, portanto o
+                    calor sai do corpo. Porém, se o dia está quente, o corpo está com uma temperatura menor que a do
+                    ambiente, logo o calor está entrando no corpo. Observe a seguir o que ocorre no cérebro ao perceber
+                    as variações de temperatura e calor. </p>
+
+                <a href="../../assets/objetos/fig09.jpg" target="_blank"><img src="../../assets/objetos/fig09.jpg"
+                        style="margin-left: auto; margin-right: auto; display: block;" alt="" class=" img-fluid"></a>
+                <div class="visually-hidden">
+                    A imagem apresenta o desenho do cérebro no topo e abaixo a descrição sobre o que ocorre no
+                    hipotálamo com o desenho de seus vasos capilares e o seguinte detalhamento: a temperatura do corpo é
+                    controlada pelo hipotálamo, conhecido como termostato biológico, uma porção pequena do encéfalo que
+                    também está relacionado com o emocional. A temperatura normal do corpo é aproximadamente 36,5 ºC.
+                    Quando há ambiente frio, ocorre vasoconstrição dos capilares próximos da pele para conservação de
+                    calor. Quando há ambiente quente, os capilares dilatam, para liberar calor no ambiente.
+                </div>
+                <p class="legenda">Figura 9 – Termorregulação <br>
+
+                    Fonte: &lt;https://www.infoescola.com/fisiologia/temperatura-corporal/&gt;. Acesso em: 20 abr. 2022.
+                </p>
+
+                <p>Ao refletir sobre os diferentes tipos de energia, apresentados anteriormente, é perceptível que a
+                    energia não termina, mas se transforma. Ao estudar a <strong>energia química</strong>, pode-se
+                    compreender, a partir
+                    das transformações químicas que ocorrem no corpo dos seres vivos, que os alimentos atuam como o
+                    principal combustível para que essas reações ocorram. Então, as <strong>energias físicas</strong> se
+                    transformam em
+                    ações do corpo. Essas relações de distribuição e transformação de energia não ocorrem apenas com os
+                    seres humanos, mas com qualquer espécie vivente. </p>
+
+
+                <h3>Práticas esportivas e ciência</h3>
+
+                <p>O cabo de guerra é uma brincadeira em que também é possível aplicar os conceitos de força. Por meio
+                    da união dos companheiros de time, o objetivo é pegar a bandeira central puxando o time adversário.
+                    Na imagem a seguir, é possível visualizar que o time azul (da esquerda) tem um número maior de
+                    pessoas, mas o time vermelho (da direita) é mais forte mesmo com menos pessoas, portanto está
+                    vencendo o cabo de guerra. </p>
+
+                <a href="../../assets/objetos/fig10.jpg" target="_blank"><img src="../../assets/objetos/fig10.jpg"
+                        style="margin-left: auto; margin-right: auto; display: block;" alt="" class="img-fluid"></a>
+
+                <div class="visually-hidden"> Imagem da brincadeira cabo de guerra, em que os participantes de dois
+                    times
+                    opostos precisam pegar a bandeira central puxando uma corda. Há o time azul, à esquerda, com três
+                    pessoas, e o time vermelho, à direita, com duas pessoas.</div>
+
+                <p class="legenda">
+                    Figura 10 – Cabo de guerra <br>
+
+                    Fonte: Adaptado de
+                    &lt;https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_pt_BR.html&gt;.
+                    Acesso em: 14 abr. 2022.
+                </p>
+
+                <p>Durante o dia, são executadas atividades simples, como andar, correr e nadar, em que se avança para a
+                    frente. Além dessas, o <em>skate</em> é um exemplo interessante. Para impulsionar o corpo para
+                    frente,
+                    deve-se chutar o pé para trás, conforme demonstra a figura a seguir. </p>
+
+                <a href="../../assets/objetos/fig11.jpg" target="_blank"><img src="../../assets/objetos/fig11.jpg"
+                        style="margin-left: auto; margin-right: auto; display: block;" alt="" class="img-fluid"></a>
+
+                <div class="visually-hidden">A imagem mostra os pés de uma pessoa com tênis pretos e calça cinza sobre
+                    um <em>skate</em>
+                    no asfalto. O pé direito está sobre o <em>skate</em> e se movimenta para a direita, à frente,
+                    enquanto o pé
+                    esquerdo chuta para trás, demonstrando a ação (chutar) e a reação (movimentar o <em>skate</em>).
+                </div>
+
+                <p class="legenda">Figura 11 – Representação de ação e reação no <em>skate</em>
+
+                    Fonte: &lt;https://unsplash.com/photos/y9ctpaxexTI&gt;. Acesso em: 14 abr. 2022. </p>
+
+                <p>Neste contexto, percebe-se que existe uma força para um lado e um movimento para outro, tendo o
+                    efeito de <strong>ação e reação</strong>. Esse fenômeno é conhecido como a <strong>3ª lei de
+                        Newton</strong>, em que toda ação tem uma
+                    reação de igual intensidade, mas de sentido contrário. </p>
+                <p>Para uma leitura complementar, pesquise sobre as diferentes modalidades esportivas das olimpíadas e
+                    associe-as aos conceitos vistos nesta etapa. </p>
+
+
+                <br>
+                <p class="text-center">
+                    <a href="index.html?page=14" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a>
+                    <a href="index.html?page=16" class="bto-proximo no-print">Próximo: <strong>Referências</strong></a>
+                </p>
+                <br><br><br>
+
+            </div>
+
+            <div class="container pagina">
+                <h2>Referências</h2>
+                <p>ABREU, Dalton Mendes de. <strong>Reação de Maillard nos alimentos</strong>: uma breve introdução.
+                    PetQuímica UFC. Disponível em:
+                    &lt;http://www.petquimica.ufc.br/reacao-de-maillard-nos-alimentos-uma-breve-introducao/&gt;. Acesso
+                    em: 3 mar. 2022. </p>
+                <p>ARMANDINHO. <strong>1º de setembro, dia do Educador Físico</strong>. 1.º set. 2020. Facebook:
+                    Armandinho. Disponível em:
+                    &lt;https://www.facebook.com/page/488356901209621/search/?q=dia%20do%20educador%20&gt;. Acesso em:
+                    14 abr. 2022. </p>
+                <p>BRASIL. Ministério da Educação. <strong>Ciências da Natureza e suas tecnologias</strong>. Disponível
+                    em:
+                    &lt;https://www.gov.br/mec/pt-br/novo-ensino-medio/itinerarios-formativos-do-novo-ensino-medio/ciencias-da-natureza-e-suas-tecnologias&gt;.
+                    Acesso em: 24 fev. 2022. </p>
+                <p>BRASIL. Ministério da Saúde. Biblioteca Virtual em Saúde. <strong>Guia Alimentar para a População
+                        Brasileira</strong>. Disponível em:
+                    &lt;https://bvsms.saude.gov.br/bvs/folder/escolha_dos_alimentos.pdf&gt;. Acesso em: 14 abr. 2022.
+                </p>
+                <p>BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde. <strong>Vigitel Brasil 2019</strong>:
+                    vigilância de fatores de risco e proteção para doenças crônicas por inquérito telefônico. Disponível
+                    em:
+                    &lt;http://bvsms.saude.gov.br/bvs/publicacoes/vigitel_brasil_2019_vigilancia_fatores_risco.pdf&gt;.
+                    Acesso em: 20 abr. 2022. </p>
+                <p>CALORIAS e quilocalorias. <strong>Khan Academy</strong>. [S.d.]. Disponível em:
+                    &lt;https://pt.khanacademy.org/science/5-ano/vida-e-evoluo-alimentao/nutricao/a/calorias-e-quilocalorias&gt;.
+                    Acesso em: 2 mar. 2022. </p>
+                <p>CALORÍMETRO ilustrações e vetores. <strong>Dreamstime</strong>. Disponível em:
+                    &lt;https://pt.dreamstime.com/illustration/calorimetro.html&gt;. Acesso em: 18 mar. 2022. </p>
+                <p>CARBOIDRATOS. <strong>Revista Food Ingredients Brasil</strong>, n. 20, 2012. Disponível em:
+                    &lt;http://revista-fi.com.br/upload_arquivos/201606/2016060465316001467141501.pdf&gt;. Acesso em: 14
+                    abr. 2022. </p>
+                <p>CARBOIDRATOS: principais fornecedores de energia. <strong>Só Biologia</strong>. Disponível em:
+                    &lt;https://www.sobiologia.com.br/conteudos/quimica_vida/quimica.php&gt;. Acesso em: 14 abr. 2022.
+                </p>
+                <p>CHASSOT, Attico; VENQUIARUTO, Luciana Dornelles; DALLAGO, Rogério Marcos. <strong>De olho nos
+                        rótulos</strong>: compreendendo a unidade caloria. Química Nova na Escola, n. 21, 2005, p.10-13.
+                    Disponível em: &lt;http://qnesc.sbq.org.br/online/qnesc21/v21a02.pdf&gt;. Acesso em: 3 mar. 2022.
+                </p>
+                <p>DEXTRO, Rafael Barty. Temperatura corporal. <strong>Infoescola</strong>, c2066-2022. Disponível em:
+                    https://www.infoescola.com/fisiologia/temperatura-corporal/. Acesso em: 20 abr. 2022. </p>
+                <p>FEIJÃO tropeiro. <strong>Vitat</strong>. Disponível em:
+                    &lt;https://vitat.com.br/alimentacao/busca-de-alimentos/alimentos/372-feij%C3%A3o-tropeiro&gt;.
+                    Acesso em: 14 abr. 2022. </p>
+                <p>FOGAÇA, Jennifer Rocha Vargas. Composição química do colesterol. <strong>Brasil Escola</strong>.
+                    Disponível em: &lt;https://brasilescola.uol.com.br/quimica/composicao-quimica-colesterol.htm&gt;.
+                    Acesso em: 14 abr. 2022. </p>
+                <p>GERALDO PERES, Sérgio Terres; VIANA, Pedro Henrique Ferreira; BONOW, Vivian. Forças e movimento:
+                    noções básicas. <strong>PhET Interactive Simulations</strong>, 18 abr. 2019. Universidade do
+                    Colorado. Disponível em:
+                    &lt;https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_pt_BR.html&gt;.
+                    Acesso em: 14 abr. 2022. </p>
+                <p>HOWARD, Jacqueline. The history of the 'ideal' woman and where that has left us.
+                    <strong>CNN</strong>, 9 de março de 2018. Disponível em:
+                    &lt;https://edition.cnn.com/2018/03/07/health/body-image-history-of-beauty-explainer-intl/index.html&gt;.
+                    Acesso em: 20 abr. 2022. </p>
+                <p>HUNDAL, Harry. Tentando fugir. <strong>Unsplash</strong>, 9 de julho de 2018. Disponível em:
+                    &lt;https://unsplash.com/photos/y9ctpaxexTI&gt;. Acesso em: 14 abr. 2022. </p>
+                <p>JOHNSON, Albert; RAFF, Lewis; WALTER, Roberts. <strong>Biologia molecular da célula</strong>.
+                    Tradução: Ana Beatriz Gorini da Veiga. Porto Alegre: Artmed, 2004. </p>
+                <p>KARP, Gerald. <strong>Biologia celular e molecular</strong>: conceitos e experimentos. Tradução:
+                    Maria Dalva Cesario. São Paulo: Manole, 2005. </p>
+                <p>KHAN ACADEMY. <strong>Calorias e Quilocalorias</strong>. Disponível em:
+                    &lt;https://pt.khanacademy.org/science/5-ano/vida-e-evoluo-alimentao/nutricao/a/calorias-e-quilocalorias&gt;.
+                    Acesso em: 3 mar. 2022. </p>
+                <p>MAILLARD Reaction. <strong>Chemistry Learner</strong>, c2022. Disponível em:
+                    &lt;https://www.chemistrylearner.com/chemical-reactions/maillard-reaction. Acesso&gt; em: 1.º abr.
+                    2022. </p>
+                <p>OLIGOSSACARÍDEOS: nem tão simples, nem tão complexos. <strong>Só Biologia</strong>, c2007-2022.
+                    Disponível em: &lt;https://www.sobiologia.com.br/conteudos/quimica_vida/quimica2.php&gt;. Acesso em:
+                    25 fev. 2022. </p>
+                <p>ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. Organização Mundial da Saúde. <strong>Alimentação
+                        saudável</strong>, [s.d.]. Disponível em:
+                    &lt;https://www.paho.org/pt/topicos/alimentacao-saudavel&gt;. Acesso em: 24 mar. 2022. </p>
+                <p>PIMAZONI-NETTO, Augusto. Conceito e tipos mais frequentes de transtornos alimentares.
+                    <strong>Sociedade Brasileira de Diabetes</strong>, [s.d.]. Disponível em:
+                    &lt;https://diabetes.org.br/conceito-e-tipos-mais-frequentes-de-transtornos-alimentares&gt;. Acesso
+                    em: 8 mar. 2022. </p>
+                <p>PIRÂMIDE das necessidades de Maslow. <strong>ADM Fácil</strong>, [s.d.]. Disponível em:
+                    &lt;https://www.admfacil.com/piramide-das-necessidades-de-maslow/&gt;. Acesso em: 24 fev. 2022. </p>
+                <p>RESNICK, R.; HALLIDAY, D.; KRANE, K. <strong>Física 1</strong>. 5. ed. Rio de Janeiro: LTC, 2003.
+                </p>
+                <p>RESNICK, R.; HALLIDAY, D.; KRANE, K. <strong>Física 2</strong>. 5. ed. Rio de Janeiro: LTC, 2003.
+                </p>
+                <p>RESNICK, R.; HALLIDAY, D.; KRANE, K. <strong>Física 3</strong>. 5. ed. Rio de Janeiro: LTC, 2003.
+                </p>
+                <p>RIBEIRO, Krukemberghe, Divino Kirk Fonseca da. Lipídios. <strong>Brasil Escola</strong>, c2022.
+                    Disponível em: &lt;https://brasilescola.uol.com.br/biologia/lipidios.htm&gt;. Acesso em: 24 fev.
+                    2022. </p>
+                <p>ROMÃO, Cícero dos Santos. Imagem corporal e distúrbios alimentares: análise das opiniões de alunos do
+                    ensino médio. <strong>Revista Multidisciplinar da Saúde (RMS)</strong>, v. 1, n. 1, p. 28-42, 2019.
+                    Disponível em: &lt;https://revistas.anchieta.br/index.php/RevistaMultiSaude/article/view/1465&gt;.
+                    Acesso em: 20 abr. 2022. </p>
+                <p>RUFFO, Gustavo Henrique. Maio Amarelo: como os crash tests melhoraram o nível dos carros.
+                    <strong>Quatro Rodas</strong>, 14 de maio de 2018. Disponível em:
+                    &lt;https://quatrorodas.abril.com.br/especial/maio-amarelo-como-os-crash-tests-melhoraram-o-nivel-dos-carros/&gt;.
+                    Acesso em: 20 abr. 2022. </p>
+                <p>SANTOS, Vanessa Sardinha dos. O que é proteína? <strong>Brasil Escola</strong>, c2022. Disponível em:
+                    &lt;https://brasilescola.uol.com.br/o-que-e/biologia/o-que-e-proteina.htm&gt;. Acesso em: 28 fev.
+                    2022. </p>
+                <p>SANTOS, Vanessa Sardinha dos. Respiração celular. <strong>Brasil Escola</strong>, c2022. Disponível
+                    em: &lt;https://brasilescola.uol.com.br/biologia/respiracao-celular.htm&gt;. Acesso em: 8 abr. 2022.
+                </p>
+                <p>SOUZA, Jhonathan. Carne caramelizada: uma receita não enzimática.<strong> Guia dos Entusiastas da
+                        Ciência</strong>, v. 3, n. 8, p. 3, 10 de ago. 2020. Disponível em:
+                    &lt;https://gec.proec.ufabc.edu.br/o-que-que-a-ciencia-tem/carne-caramelizada-uma-receita-nao-enzimatica/&gt;.
+                    Acesso em: 3 mar. 2022. </p>
+                <p>TERMOQUÍMICA (reações químicas) e lei de Hess. <strong>StuDocu</strong>, c2022. Disponível em:
+                    &lt;https://www.studocu.com/pt-br/document/centro-universitario-dos-guararapes/fisico-quimica-aplicada-a-farmacia/lei-de-hess-e-termoquimica-fisico-quimica/14233672&gt;.
+                    Acesso em: 18 mar. 2022. </p>
+                <p>VECHI, Maria F. N. Bolo simples. <strong>TudoGostoso</strong>, c2005-2022. Disponível em:
+                    &lt;https://www.tudogostoso.com.br/receita/29124-bolo-simples.html&gt;. Acesso em: 23 fev. 2022.
+                </p>
+                <p>WHAT is an eating disorder: types, symptoms, risks, and causes. <strong>Eating Disorder
+                        Hope</strong>, c2022. Disponível em:
+                    &lt;https://www.eatingdisorderhope.com/information/eating-disorder&gt;. Acesso em: 20 abr. 2022.
+                </p>
+                <p class="text-center"><a href="index.html?page=15" class="bto-proximo voltar no-print"><i
+                            class="fas fa-arrow-left    "></i> Voltar</a></p>
+            </div>
+        </section>
+        <!-- Paginação do print-->
+        <!-- <footer class="text-center no-print container">
+            <ul class="pagination">
+  
+            </ul>
+        </footer>    -->
+    </section>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="../../assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!--Jquery-->
+    <script src="../../assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- print legado dos técnicos -->
+    <!-- descomentar essa linha caso queira um print.css e um leitor.css exclusivo para o conteudo ao usar o botao imprimir-->
+    <!--
+    <script>
+        var custom_print_path = 'assets/css/';
+        var custom_leitor_path = 'assets/css/';
+    </script>    
+    -->
+    <script src="../../assets/print/print.js"></script>
+    <script src="../../assets/print/template.config.js"></script>
+
+    <script src="../../assets/js/audio-player.js"></script>
+    <script src="../../assets/interativos/esquema_bru/esquema-bru.js"></script>
+    <script src="../../assets/js/geral.js"></script>
+
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+    <!-- Versao atual do handtalk -->
+    <script>
+        var scriptElem = document.createElement("script");
+        scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+            scriptElem.charset = "UTF-8",
+            scriptElem.onload = function () {
+                window.ht = new HT({
+                    token: "bf5b7efb148a829a126a0e0c9fd533bf",
+                    align: "top",
+                    videoEnabled: true,
+                    ytEmbedReplace: true,
+                    mobileConfig: {
+                        align: "right",
+                        actionsAlign: "top",
+                        customButtonStyle: {
+                            borderRadius: "6px",
+                            size: "38px",
+                            horizontalMargin: "13px",
+                            bottomMargin: "140px",
+                            rightMargin: "40px"
+                        }
+                    }
+                });
+                $('.ht-skip').attr("aria-hidden", "true")
+            },
+            document.body.appendChild(scriptElem);
+    </script>
+
+    <script>
+        jQuery("document").ready(function ($) {
+
+            var nav = $('.navbar');
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 136) {
+                    nav.addClass("fixar");
+                } else {
+                    nav.removeClass("fixar");
+                }
+            });
+
+            var pg_number = parseInt(window.location.href.split('?')[1].split('=')[1]);
+            console.log('pg_number:', pg_number)
+            $('#navbarScroll a').eq(pg_number).addClass('ativo');
+            $('#navbarScrollingDropdown span').html($('#navbarScroll a').eq(pg_number).text())
+        });
+    </script>
+</body>
+
+</html>
