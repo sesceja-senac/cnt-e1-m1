@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/tela-inicial.css">
+    <link rel="stylesheet" href="assets/print/print.css">
+
+    <title>Ciências da natureza e suas tecnologias - Alimentação: energia e saúde para a vida</title>
+</head>
+
+<body class="overflow-hidden">
+    <h1 class="print visually-hidden">Ciências da Natureza e suas Tecnologias</h1>
+    <p class="print visually-hidden">Olá, estudante do Sesc EAD EJA! Seja bem-vindo à área de ciências da natureza. Confira agora o que você vai aprender neste módulo. </p>
+    <p class="print visually-hidden">Vamos estudar as moléculas que compõem os alimentos, o quais são parte essencial da nossa vida e responsáveis por diversas funções no nosso corpo, e também vamos aprender como transformamos esses alimentos em movimento e força. </p>
+    <p class="print visually-hidden">Além disso, vamos analisar as informações nutricionais que constam nos rótulos das embalagens dos alimentos e entender melhor os processos metabólicos do nosso corpo. </p>
+    <p class="print visually-hidden">Siga conosco nesta caminhada! Até a próxima! </p>
+    <div class="capa d-md-flex h-100 pt-5 pb-5 pb-md-0 pt-md-0 overflow-auto">
+        <div class="conteudo container align-self-center painelDesk">
+            <div class="row">
+                <div class="col-3">
+                    <!--
+                    <a href="#" target="_blank" type="button" >
+                        <img src="assets/objetos/Video_apresentacao_pq_layout.png" class="img-fluid imgVideo">
+                    </a>
+                    -->
+                    <button type="button" class="imgVideo btVideo" data-bs-toggle="modal" data-bs-target="#modal-video" aria-hidden="true"></button>
+                </div>
+                <div class="col-6"></div>
+                <div class="col-3">
+                    <img src="assets/img/logo_sesc_eja.png" class="img-fluid right logo">
+                </div>
+            </div>
+            <h3 class="tituloInicial" aria-hidden="true"><strong>Ciências da Natureza e suas Tecnologias</strong></h3>
+            <div class="row div-conteudo">
+                <div class="col">
+                    <img src="assets/objetos/titulo.png" class="img-fluid titulo">
+                </div>
+                <div class="col col-lg-6 container2">
+                    <div class="col col-lg-6">
+                        <div class="rotate-box">
+                            <img src="assets/objetos/elemento_3.png" class="rotate-setadir img-fluid" alt="">
+                            <img src="assets/objetos/elemento_4.png" class="rotateimg1 img-fluid" alt="">
+                            <img src="assets/objetos/elemento_2.png" class="rotate-setaestq img-fluid" alt="">
+                            <img src="assets/objetos/elemento_5.png" class="rotate-seta1 img-fluid" alt="">
+                            <img src="assets/objetos/elemento_1.png" class="rotate-seta2 img-fluid" alt="">
+                            <img src="assets/objetos/elemento_6.png" class="rotate-seta3 img-fluid" alt="">
+                        </div>
+                        <img src="assets/objetos/personagem-inicio.png" class="img-fluid personagem central-image">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="conteudo/cienciasdanatureza_mod1/index.html" target="_blank">
+                        <img src="assets/objetos/btn_iniciar_hoverscale.png" class="img-fluid iniciar">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="painelMobile container align-self-center">
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="imgVideo btVideo" data-bs-toggle="modal" data-bs-target="#modal-video" aria-hidden="true"></button>
+                </div>
+                <div class="col-6"></div>
+                <div class="col-3">
+                    <img src="assets/img/logo_sesc_eja.png" class="img-fluid right logo2">
+                </div>
+            </div>
+            <div class="col-12">
+                <h3 class="tituloInicial2">Ciências da Natureza e suas Tecnologias</h3>
+            </div>
+
+            <img src="assets/objetos/titulo.png" class="img-fluid titulo2">
+                
+
+            <div class="row">
+                <div class="col-12">
+                    <a href="conteudo/cienciasdanatureza_mod1/index.html" target="_blank">
+                        <img src="assets/objetos/btn_iniciar_hoverscale.png" class="img-fluid iniciar2">
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="backdrop" aria-hidden="true">
+            <div class="modal-intro">
+              <p>Olá! Antes de começar, assista ao vídeo introdutório sobre o módulo a seguir.</p>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="ytb embed-responsive-item" src="https://www.youtube.com/embed/ACyc3A1-C34?si=5QGwlohZGbr4dypa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+              
+              <div class="footer">
+                    <button class="botao-fechar">Fechar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
+
+<!--Jquery-->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<!-- Bootstrap JavaScript Libraries -->
+<script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="assets/js/tela_inicial.js"></script>
+
+<script>
+    var scriptElem = document.createElement("script");
+    scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+        scriptElem.charset = "UTF-8",
+        scriptElem.onload = function () {
+            window.ht = new HT({
+                token: "bf5b7efb148a829a126a0e0c9fd533bf",
+                align: "top",
+                videoEnabled: true,
+                ytEmbedReplace: true,
+                mobileConfig: {
+                    align: "right",
+                    actionsAlign: "top",
+                    customButtonStyle: {
+                        borderRadius: "6px",
+                        size: "38px",
+                        horizontalMargin: "13px",
+                        bottomMargin: "140px",
+                        rightMargin: "40px"
+                    }
+                }
+            });
+            $('.ht-skip').attr("aria-hidden", "true")
+        },
+        document.body.appendChild(scriptElem);
+</script>
