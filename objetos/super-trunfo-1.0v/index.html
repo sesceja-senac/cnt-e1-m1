@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/ODA_paes.css">
+    <title>Super trunfo</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="ODA_paes">
+            <div class="tela-inicial">
+                <div class="texto">
+                    <h2>
+                        Pão de forma x Pão integral:<br>
+                        Um embate alimentar
+                    </h2>
+                    <p>Responda as questões a seguir selecionando a carta correta a partir dos valores contidos em suas
+                        tabelas de informações nutricionais.</p>
+                    <button class="iniciar">Iniciar</button>
+                </div>
+            </div>
+            <div class="tela-1">
+                <div class="pergunta">
+                    <p>a) Qual dos pães é mais calórico?</p>
+                    <div class="opcoes">
+                        <button class="opcao opcao-1" data-bs-toggle="modal" data-bs-target="#modalErro1">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaodeForma-01.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaodeForma-ingredientes.png" alt=""></div>
+                        </button>
+                        <button class="opcao opcao-2" data-bs-toggle="modal" data-bs-target="#modalCorreto1">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaoIntegral-01.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaoIntegral-ingredientes.png" alt=""></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="tela-2">
+                <div class="pergunta">
+                    <p>b) Qual dos pães tem maior quantidade de gorduras consideradas boas?</p>
+                    <div class="opcoes">
+                        <button class="opcao opcao-1" data-bs-toggle="modal" data-bs-target="#modalErro2">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaodeForma-01.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaodeForma-ingredientes.png" alt=""></div>
+                        </button>
+                        <button class="opcao opcao-2" data-bs-toggle="modal" data-bs-target="#modalCorreto2">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaoIntegral-01.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaoIntegral-ingredientes.png" alt=""></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="tela-3">
+                <div class="pergunta">
+                    <p>c) Qual dos pães tem maior quantidade do nutriente que fornece energia ao corpo humano?</p>
+                    <div class="opcoes">
+                        <button class="opcao opcao-1" data-bs-toggle="modal" data-bs-target="#modalCorreto3">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaodeForma-02.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaodeForma-ingredientes.png" alt=""></div>
+                        </button>
+                        <button class="opcao opcao-2" data-bs-toggle="modal" data-bs-target="#modalErro3">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaoIntegral-02.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaoIntegral-ingredientes.png" alt=""></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="tela-4">
+                <div class="pergunta">
+                    <p>d) Qual dos pães tem maior quantidade do nutriente que tem como função a formação da estrutura
+                        celular?</p>
+                    <div class="opcoes">
+                        <button class="opcao opcao-1" data-bs-toggle="modal" data-bs-target="#modalErro4">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaodeForma-02.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaodeForma-ingredientes.png" alt=""></div>
+                        </button>
+                        <button class="opcao opcao-2" data-bs-toggle="modal" data-bs-target="#modalCorreto4">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaoIntegral-02.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaoIntegral-ingredientes.png" alt=""></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="tela-5">
+                <div class="pergunta">
+                    <p>e) Qual dos pães tem maior quantidade de gorduras totais?</p>
+                    <div class="opcoes">
+                        <button class="opcao opcao-1" data-bs-toggle="modal" data-bs-target="#modalErro5">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaodeForma-02.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaodeForma-ingredientes.png" alt=""></div>
+                        </button>
+                        <button class="opcao opcao-2" data-bs-toggle="modal" data-bs-target="#modalCorreto5">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaoIntegral-02.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaoIntegral-ingredientes.png" alt=""></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="tela-6">
+                <div class="pergunta">
+                    <p>f) Qual dos pães tem maior quantidade do nutriente que auxilia no trato digestivo?</p>
+                    <div class="opcoes">
+                        <button class="opcao opcao-1" data-bs-toggle="modal" data-bs-target="#modalErro6">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaodeForma-02.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaodeForma-ingredientes.png" alt=""></div>
+                        </button>
+                        <button class="opcao opcao-2" data-bs-toggle="modal" data-bs-target="#modalCorreto6">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaoIntegral-02.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaoIntegral-ingredientes.png" alt=""></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="tela-7">
+                <div class="pergunta">
+                    <p>g) Qual dos pães tem menor quantidade de gorduras consideradas ruins?</p>
+                    <div class="opcoes">
+                        <button class="opcao opcao-1" data-bs-toggle="modal" data-bs-target="#modalCorreto7">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaodeForma-03.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaodeForma-ingredientes.png" alt=""></div>
+                        </button>
+                        <button class="opcao opcao-2" data-bs-toggle="modal" data-bs-target="#modalErro7">
+                            <div class="ladoFrente"><img src="assets/img/CardsPaoIntegral-03.png" alt=""></div>
+                            <div class="ladoTras"><img src="assets/img/CardsPaoIntegral-ingredientes.png" alt=""></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="tela-8">
+                <div class="container">
+                    <div class="msg-final">
+                        <p>
+                            Muito bem! Você finalizou o desafio. Gostaria de jogar de novo?
+                        </p>
+                        <button class="restart">Início</button>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-info">Ver Ingredientes</button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade modal-correto" id="modalCorreto1" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Correto!</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Parabéns! O pão integral tem mais calorias, de acordo com a informação de “valor energético”.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-erro" id="modalErro1" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ops! Tente novamente</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Incorreto! Você deve comparar o critério de valor energético.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-correto" id="modalCorreto2" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Correto!</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Parabéns! O pão integral tem mais gorduras monoinsaturadas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-erro" id="modalErro2" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ops! Tente novamente</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Incorreto! O pão de forma tem menos gorduras monoinsaturadas, o tipo de gordura que tende a
+                            ficar sólida em temperaturas ambientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-correto" id="modalCorreto3" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Correto!</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Parabéns! O pão de forma tem mais carboidratos, grande fonte de energia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-erro" id="modalErro3" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ops! Tente novamente</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Incorreto! Apesar de ser mais calórico, o pão integral tem menos carboidratos, uma das
+                            maiores fontes de energia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-correto" id="modalCorreto4" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Correto!</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Parabéns! O pão integral tem mais proteínas, que têm diversas funções no organismo, entre
+                            elas a atuação enzimática e a contração muscular.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-erro" id="modalErro4" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ops! Tente novamente</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Incorreto! O pão de forma tem menos proteínas, responsáveis pela formação da estrutura
+                            celular.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-correto" id="modalCorreto5" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Correto!</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Parabéns! O pão integral apresenta maior quantidade de gorduras totais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-erro" id="modalErro5" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ops! Tente novamente</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Incorreto! O pão de forma apresenta menor quantidade de gorduras totais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-correto" id="modalCorreto6" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Correto!</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Parabéns! O pão integral tem mais fibras alimentares.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-erro" id="modalErro6" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ops! Tente novamente</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Incorreto! O pão de forma tem menos fibras alimentares que o pão integral.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-correto" id="modalCorreto7" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Correto!</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Parabéns! O pão de forma não tem gorduras saturadas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-erro" id="modalErro7" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ops! Tente novamente</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Incorreto! O pão integral tem gorduras saturadas, que não dissolvem na corrente sanguínea.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
