@@ -28,6 +28,41 @@
   grid-row-gap: 0px;
   max-width: 100%;
 }
+.ODA_prato_saudavel .gride-2 {
+  position: relative;
+  display: block;
+  height: 400px;
+  width: 100%;
+  background-color: rgba(255, 151, 0, 0.4);
+  border-radius: 10px;
+}
+.ODA_prato_saudavel .gride-2 .option-c, .ODA_prato_saudavel .gride-2 .option-e {
+  max-width: 200px;
+  background-color: transparent;
+  position: absolute;
+  padding: 0;
+  border: none;
+}
+.ODA_prato_saudavel .gride-2 .option-c:hover, .ODA_prato_saudavel .gride-2 .option-e:hover {
+  transform: scale(1.1);
+}
+.ODA_prato_saudavel .gride-2 button:first-of-type {
+  top: 40px;
+  left: 40px;
+}
+.ODA_prato_saudavel .gride-2 button:last-of-type {
+  bottom: 40px;
+  right: 40px;
+}
+.ODA_prato_saudavel .gride-2.blue {
+  background-image: url("../img/Blue.png");
+}
+.ODA_prato_saudavel .gride-2.green {
+  background-image: url("../img/Green.png");
+}
+.ODA_prato_saudavel .gride-2.red {
+  background-image: url("../img/Red.png");
+}
 .ODA_prato_saudavel .tela-2,
 .ODA_prato_saudavel .tela-3,
 .ODA_prato_saudavel .tela-4 {
@@ -88,7 +123,7 @@
 }
 .ODA_prato_saudavel .btn_row {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
 }
 .ODA_prato_saudavel .verificar_btn,
 .ODA_prato_saudavel .ingredientes_btn {

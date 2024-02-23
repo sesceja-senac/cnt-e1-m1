@@ -33,7 +33,43 @@ $color-2: #ff9700;
         grid-row-gap: 0px;
         max-width: 100%;
     }
+    .gride-2 {
+        position: relative;
+        display: block;
+        height: 400px;
+        width: 100%;
+        background-color: rgba(255, 151, 0, .4);
+        border-radius: 10px;
 
+        .option-c, .option-e {
+            max-width: 200px;
+            background-color: transparent;
+            position: absolute;
+            padding: 0;
+            border: none;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        button:first-of-type {
+            top: 40px;
+            left: 40px;
+        }
+        button:last-of-type {
+            bottom: 40px;
+            right: 40px;
+        }
+    }
+    .gride-2.blue{
+        background-image: url('../img/Blue.png');
+    }
+    .gride-2.green{
+        background-image: url('../img/Green.png');
+    }
+    .gride-2.red{
+        background-image: url('../img/Red.png');
+    }
     .tela-2,
     .tela-3,
     .tela-4 {
@@ -105,7 +141,7 @@ $color-2: #ff9700;
 
     .btn_row {
         display: flex;
-        justify-content: space-between;
+        justify-content: end;
     }
 
     .verificar_btn,
